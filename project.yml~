@@ -1,0 +1,13 @@
+name: ssigmaapiswiftsample3
+targets:
+  ssigmaapiswiftsample3:
+    type: framework
+    platform: iOS
+    dependencies:
+      - carthage: SwiftGRPC
+      - carthage: SwiftProtobuf
+    sources:
+      - Sources
+    scheme:
+      configVariants:
+        - release

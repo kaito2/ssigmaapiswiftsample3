@@ -1,0 +1,796 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Ssigmaapi_Markethub_V1_GetTradesRequest"
+- "Ssigmaapi_Markethub_V1_GetTradesResponse"
+- "Ssigmaapi_Markethub_V1_GetOrderBooksRequest"
+- "Ssigmaapi_Markethub_V1_GetOrderBooksResponse"
+- "Ssigmaapi_Markethub_V1_GetTradesAndOrderBooksRequest"
+- "Ssigmaapi_Markethub_V1_GetTradesAndOrderBooksResponse"
+- "Ssigmaapi_Markethub_V1_TradeWithAdditionalInfo"
+- "Ssigmaapi_Markethub_V1_TradesWithMarket"
+- "Ssigmaapi_Markethub_V1_ExchangeStatus"
+- "=="
+- "=="
+- "=="
+- "=="
+- "=="
+- "=="
+- "=="
+- "=="
+- "=="
+provides-nominal:
+- "21ssigmaapiswiftsample339Ssigmaapi_Markethub_V1_GetTradesRequestV"
+- "21ssigmaapiswiftsample340Ssigmaapi_Markethub_V1_GetTradesResponseV"
+- "21ssigmaapiswiftsample343Ssigmaapi_Markethub_V1_GetOrderBooksRequestV"
+- "21ssigmaapiswiftsample344Ssigmaapi_Markethub_V1_GetOrderBooksResponseV"
+- "21ssigmaapiswiftsample352Ssigmaapi_Markethub_V1_GetTradesAndOrderBooksRequestV"
+- "21ssigmaapiswiftsample353Ssigmaapi_Markethub_V1_GetTradesAndOrderBooksResponseV"
+- "21ssigmaapiswiftsample346Ssigmaapi_Markethub_V1_TradeWithAdditionalInfoV"
+- "21ssigmaapiswiftsample339Ssigmaapi_Markethub_V1_TradesWithMarketV"
+- "21ssigmaapiswiftsample337Ssigmaapi_Markethub_V1_ExchangeStatusV"
+provides-member:
+- ["21ssigmaapiswiftsample339Ssigmaapi_Markethub_V1_GetTradesRequestV", ""]
+- ["21ssigmaapiswiftsample340Ssigmaapi_Markethub_V1_GetTradesResponseV", ""]
+- ["21ssigmaapiswiftsample343Ssigmaapi_Markethub_V1_GetOrderBooksRequestV", ""]
+- ["21ssigmaapiswiftsample344Ssigmaapi_Markethub_V1_GetOrderBooksResponseV", ""]
+- ["21ssigmaapiswiftsample352Ssigmaapi_Markethub_V1_GetTradesAndOrderBooksRequestV", ""]
+- ["21ssigmaapiswiftsample353Ssigmaapi_Markethub_V1_GetTradesAndOrderBooksResponseV", ""]
+- ["21ssigmaapiswiftsample346Ssigmaapi_Markethub_V1_TradeWithAdditionalInfoV", ""]
+- ["21ssigmaapiswiftsample339Ssigmaapi_Markethub_V1_TradesWithMarketV", ""]
+- ["21ssigmaapiswiftsample337Ssigmaapi_Markethub_V1_ExchangeStatusV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "!="
+- !private "!=="
+- "+"
+- "=="
+- !private "??"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "Dictionary"
+- "Double"
+- "FloatLiteralType"
+- "Int64"
+- "IntegerLiteralType"
+- "Ssigmaapi_Markethub_V1_ExchangeStatus"
+- "Ssigmaapi_Markethub_V1_GetOrderBooksRequest"
+- "Ssigmaapi_Markethub_V1_GetOrderBooksResponse"
+- "Ssigmaapi_Markethub_V1_GetTradesAndOrderBooksRequest"
+- "Ssigmaapi_Markethub_V1_GetTradesAndOrderBooksResponse"
+- "Ssigmaapi_Markethub_V1_GetTradesRequest"
+- "Ssigmaapi_Markethub_V1_GetTradesResponse"
+- "Ssigmaapi_Markethub_V1_TradeWithAdditionalInfo"
+- "Ssigmaapi_Markethub_V1_TradesWithMarket"
+- "Ssigmaapi_Type_Market"
+- "Ssigmaapi_Type_OrderBook"
+- "Ssigmaapi_Type_Trade"
+- "String"
+- "StringLiteralType"
+- "SwiftProtobuf"
+- !private "_GeneratedWithProtocGenSwiftVersion"
+- "_protobuf_package"
+- !private "isKnownUniquelyReferenced"
+- !private "withExtendedLifetime"
+- !private "~="
+depends-member:
+- !private ["Sa", "isEmpty"]
+- !private ["s13ArrayProtocolP", "isEmpty"]
+- ["SK", "init"]
+- ["SK", "init"]
+- !private ["SK", "isEmpty"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isEmpty"]
+- ["Sl", "init"]
+- ["Sl", "init"]
+- !private ["Sl", "isEmpty"]
+- ["SL", "init"]
+- ["SL", "init"]
+- !private ["SL", "isEmpty"]
+- !private ["s28CustomDebugStringConvertibleP", "Ssigmaapi_Markethub_V1_GetOrderBooksRequest"]
+- !private ["s28CustomDebugStringConvertibleP", "Ssigmaapi_Markethub_V1_GetOrderBooksResponse"]
+- !private ["s28CustomDebugStringConvertibleP", "Ssigmaapi_Markethub_V1_GetTradesRequest"]
+- !private ["s28CustomDebugStringConvertibleP", "Ssigmaapi_Markethub_V1_GetTradesResponse"]
+- !private ["s28CustomDebugStringConvertibleP", "Ssigmaapi_Type_Market"]
+- !private ["s28CustomDebugStringConvertibleP", "Ssigmaapi_Type_Trade"]
+- ["s28CustomDebugStringConvertibleP", "String"]
+- ["s28CustomDebugStringConvertibleP", "SwiftProtobuf"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "_StorageClass"]
+- ["s28CustomDebugStringConvertibleP", "_protobuf_generated_isEqualTo"]
+- ["s28CustomDebugStringConvertibleP", "_protobuf_nameMap"]
+- ["s28CustomDebugStringConvertibleP", "_protobuf_package"]
+- !private ["s28CustomDebugStringConvertibleP", "_storage"]
+- !private ["s28CustomDebugStringConvertibleP", "_uniqueStorage"]
+- !private ["s28CustomDebugStringConvertibleP", "all"]
+- ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- ["s28CustomDebugStringConvertibleP", "decodeMessage"]
+- !private ["s28CustomDebugStringConvertibleP", "exchange"]
+- !private ["s28CustomDebugStringConvertibleP", "exchangeStatus"]
+- ["s28CustomDebugStringConvertibleP", "hash"]
+- ["s28CustomDebugStringConvertibleP", "hashValue"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isEmpty"]
+- ["s28CustomDebugStringConvertibleP", "isEqualTo"]
+- ["s28CustomDebugStringConvertibleP", "isInitialized"]
+- !private ["s28CustomDebugStringConvertibleP", "isKnownUniquelyReferenced"]
+- !private ["s28CustomDebugStringConvertibleP", "market"]
+- !private ["s28CustomDebugStringConvertibleP", "markets"]
+- !private ["s28CustomDebugStringConvertibleP", "open"]
+- ["s28CustomDebugStringConvertibleP", "protoMessageName"]
+- !private ["s28CustomDebugStringConvertibleP", "timestamp"]
+- !private ["s28CustomDebugStringConvertibleP", "tradesWithMarket"]
+- ["s28CustomDebugStringConvertibleP", "traverse"]
+- ["s28CustomDebugStringConvertibleP", "unknownFields"]
+- !private ["s28CustomDebugStringConvertibleP", "velocityWindowingSize"]
+- !private ["s28CustomDebugStringConvertibleP", "volatilityWindowingSize"]
+- !private ["s28CustomDebugStringConvertibleP", "volumeWindowingSize"]
+- !private ["s28CustomDebugStringConvertibleP", "withExtendedLifetime"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "isEmpty"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- ["s17CustomReflectableP", "init"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "isEmpty"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isEmpty"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- ["Se", "init"]
+- ["Se", "init"]
+- !private ["Se", "isEmpty"]
+- !private ["13SwiftProtobuf7DecoderP", "decodeRepeatedMessageField"]
+- !private ["13SwiftProtobuf7DecoderP", "decodeSingularBoolField"]
+- !private ["13SwiftProtobuf7DecoderP", "decodeSingularDoubleField"]
+- !private ["13SwiftProtobuf7DecoderP", "decodeSingularInt64Field"]
+- !private ["13SwiftProtobuf7DecoderP", "decodeSingularMessageField"]
+- !private ["13SwiftProtobuf7DecoderP", "decodeSingularStringField"]
+- !private ["13SwiftProtobuf7DecoderP", "nextFieldNumber"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- ["SE", "init"]
+- ["SE", "init"]
+- !private ["SE", "isEmpty"]
+- !private ["SQ", "Ssigmaapi_Markethub_V1_GetOrderBooksRequest"]
+- !private ["SQ", "Ssigmaapi_Markethub_V1_GetOrderBooksResponse"]
+- !private ["SQ", "Ssigmaapi_Markethub_V1_GetTradesRequest"]
+- !private ["SQ", "Ssigmaapi_Markethub_V1_GetTradesResponse"]
+- !private ["SQ", "Ssigmaapi_Type_Market"]
+- !private ["SQ", "Ssigmaapi_Type_Trade"]
+- ["SQ", "String"]
+- ["SQ", "SwiftProtobuf"]
+- ["SQ", ""]
+- ["SQ", "_StorageClass"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- ["SQ", "_protobuf_generated_isEqualTo"]
+- ["SQ", "_protobuf_nameMap"]
+- ["SQ", "_protobuf_package"]
+- !private ["SQ", "_storage"]
+- !private ["SQ", "_uniqueStorage"]
+- !private ["SQ", "all"]
+- ["SQ", "debugDescription"]
+- ["SQ", "decodeMessage"]
+- !private ["SQ", "exchange"]
+- !private ["SQ", "exchangeStatus"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- ["SQ", "init"]
+- !private ["SQ", "isEmpty"]
+- ["SQ", "isEqualTo"]
+- ["SQ", "isInitialized"]
+- !private ["SQ", "isKnownUniquelyReferenced"]
+- !private ["SQ", "market"]
+- !private ["SQ", "markets"]
+- !private ["SQ", "open"]
+- ["SQ", "protoMessageName"]
+- !private ["SQ", "timestamp"]
+- !private ["SQ", "tradesWithMarket"]
+- ["SQ", "traverse"]
+- ["SQ", "unknownFields"]
+- !private ["SQ", "velocityWindowingSize"]
+- !private ["SQ", "volatilityWindowingSize"]
+- !private ["SQ", "volumeWindowingSize"]
+- !private ["SQ", "withExtendedLifetime"]
+- !private ["s25ExpressibleByArrayLiteralP", "isEmpty"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "isEmpty"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "isEmpty"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "isEmpty"]
+- !private ["SH", "Ssigmaapi_Markethub_V1_GetOrderBooksRequest"]
+- !private ["SH", "Ssigmaapi_Markethub_V1_GetOrderBooksResponse"]
+- !private ["SH", "Ssigmaapi_Markethub_V1_GetTradesRequest"]
+- !private ["SH", "Ssigmaapi_Markethub_V1_GetTradesResponse"]
+- !private ["SH", "Ssigmaapi_Type_Market"]
+- !private ["SH", "Ssigmaapi_Type_Trade"]
+- ["SH", "String"]
+- ["SH", "SwiftProtobuf"]
+- ["SH", ""]
+- ["SH", "_StorageClass"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- ["SH", "_protobuf_generated_isEqualTo"]
+- ["SH", "_protobuf_nameMap"]
+- ["SH", "_protobuf_package"]
+- !private ["SH", "_storage"]
+- !private ["SH", "_uniqueStorage"]
+- !private ["SH", "all"]
+- ["SH", "debugDescription"]
+- ["SH", "decodeMessage"]
+- !private ["SH", "exchange"]
+- !private ["SH", "exchangeStatus"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- ["SH", "init"]
+- !private ["SH", "isEmpty"]
+- ["SH", "isEqualTo"]
+- ["SH", "isInitialized"]
+- !private ["SH", "isKnownUniquelyReferenced"]
+- !private ["SH", "market"]
+- !private ["SH", "markets"]
+- !private ["SH", "open"]
+- ["SH", "protoMessageName"]
+- !private ["SH", "timestamp"]
+- !private ["SH", "tradesWithMarket"]
+- ["SH", "traverse"]
+- ["SH", "unknownFields"]
+- !private ["SH", "velocityWindowingSize"]
+- !private ["SH", "volatilityWindowingSize"]
+- !private ["SH", "volumeWindowingSize"]
+- !private ["SH", "withExtendedLifetime"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "isEmpty"]
+- !private ["13SwiftProtobuf7MessageP", "Ssigmaapi_Markethub_V1_GetOrderBooksRequest"]
+- !private ["13SwiftProtobuf7MessageP", "Ssigmaapi_Markethub_V1_GetOrderBooksResponse"]
+- !private ["13SwiftProtobuf7MessageP", "Ssigmaapi_Markethub_V1_GetTradesRequest"]
+- !private ["13SwiftProtobuf7MessageP", "Ssigmaapi_Markethub_V1_GetTradesResponse"]
+- !private ["13SwiftProtobuf7MessageP", "Ssigmaapi_Type_Market"]
+- !private ["13SwiftProtobuf7MessageP", "Ssigmaapi_Type_Trade"]
+- ["13SwiftProtobuf7MessageP", "String"]
+- ["13SwiftProtobuf7MessageP", "SwiftProtobuf"]
+- ["13SwiftProtobuf7MessageP", ""]
+- ["13SwiftProtobuf7MessageP", "_StorageClass"]
+- ["13SwiftProtobuf7MessageP", "_protobuf_generated_isEqualTo"]
+- ["13SwiftProtobuf7MessageP", "_protobuf_nameMap"]
+- ["13SwiftProtobuf7MessageP", "_protobuf_package"]
+- !private ["13SwiftProtobuf7MessageP", "_storage"]
+- !private ["13SwiftProtobuf7MessageP", "_uniqueStorage"]
+- !private ["13SwiftProtobuf7MessageP", "all"]
+- ["13SwiftProtobuf7MessageP", "debugDescription"]
+- ["13SwiftProtobuf7MessageP", "decodeMessage"]
+- !private ["13SwiftProtobuf7MessageP", "exchange"]
+- !private ["13SwiftProtobuf7MessageP", "exchangeStatus"]
+- ["13SwiftProtobuf7MessageP", "hash"]
+- ["13SwiftProtobuf7MessageP", "hashValue"]
+- ["13SwiftProtobuf7MessageP", "init"]
+- ["13SwiftProtobuf7MessageP", "isEqualTo"]
+- ["13SwiftProtobuf7MessageP", "isInitialized"]
+- !private ["13SwiftProtobuf7MessageP", "isKnownUniquelyReferenced"]
+- !private ["13SwiftProtobuf7MessageP", "market"]
+- !private ["13SwiftProtobuf7MessageP", "markets"]
+- !private ["13SwiftProtobuf7MessageP", "open"]
+- ["13SwiftProtobuf7MessageP", "protoMessageName"]
+- !private ["13SwiftProtobuf7MessageP", "timestamp"]
+- !private ["13SwiftProtobuf7MessageP", "tradesWithMarket"]
+- ["13SwiftProtobuf7MessageP", "traverse"]
+- ["13SwiftProtobuf7MessageP", "unknownFields"]
+- !private ["13SwiftProtobuf7MessageP", "velocityWindowingSize"]
+- !private ["13SwiftProtobuf7MessageP", "volatilityWindowingSize"]
+- !private ["13SwiftProtobuf7MessageP", "volumeWindowingSize"]
+- !private ["13SwiftProtobuf7MessageP", "withExtendedLifetime"]
+- ["s10MirrorPathP", "init"]
+- ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "isEmpty"]
+- !private ["SM", "isEmpty"]
+- !private ["So8NSCodingP", "isEmpty"]
+- !private ["So9NSCopyingP", "isEmpty"]
+- !private ["So21NSItemProviderReadingP", "isEmpty"]
+- !private ["So21NSItemProviderWritingP", "isEmpty"]
+- !private ["So16NSMutableCopyingP", "isEmpty"]
+- !private ["So8NSObjectC", "isEmpty"]
+- !private ["So8NSObjectP", "isEmpty"]
+- !private ["So14NSSecureCodingP", "isEmpty"]
+- !private ["So8NSStringC", "isEmpty"]
+- ["13SwiftProtobuf8_NameMapV0C11DescriptionO", "same"]
+- ["13SwiftProtobuf8_NameMapV0C11DescriptionO", "standard"]
+- ["13SwiftProtobuf0B15APIVersionCheckP", "Version"]
+- !private ["13SwiftProtobuf0B15APIVersionCheckP", ""]
+- ["13SwiftProtobuf0B12APIVersion_2P", ""]
+- !private ["Sk", "isEmpty"]
+- ["Sm", "init"]
+- ["Sm", "init"]
+- !private ["Sm", "isEmpty"]
+- ["ST", "init"]
+- ["ST", "init"]
+- !private ["ST", "isEmpty"]
+- ["21ssigmaapiswiftsample337Ssigmaapi_Markethub_V1_ExchangeStatusV", "=="]
+- ["21ssigmaapiswiftsample337Ssigmaapi_Markethub_V1_ExchangeStatusV", "Bool"]
+- ["21ssigmaapiswiftsample337Ssigmaapi_Markethub_V1_ExchangeStatusV", "Ssigmaapi_Markethub_V1_ExchangeStatus"]
+- ["21ssigmaapiswiftsample337Ssigmaapi_Markethub_V1_ExchangeStatusV", "String"]
+- ["21ssigmaapiswiftsample337Ssigmaapi_Markethub_V1_ExchangeStatusV", "SwiftProtobuf"]
+- ["21ssigmaapiswiftsample337Ssigmaapi_Markethub_V1_ExchangeStatusV", "_protobuf_generated_isEqualTo"]
+- ["21ssigmaapiswiftsample337Ssigmaapi_Markethub_V1_ExchangeStatusV", "_protobuf_nameMap"]
+- ["21ssigmaapiswiftsample337Ssigmaapi_Markethub_V1_ExchangeStatusV", "_protobuf_package"]
+- ["21ssigmaapiswiftsample337Ssigmaapi_Markethub_V1_ExchangeStatusV", "debugDescription"]
+- ["21ssigmaapiswiftsample337Ssigmaapi_Markethub_V1_ExchangeStatusV", "decodeMessage"]
+- ["21ssigmaapiswiftsample337Ssigmaapi_Markethub_V1_ExchangeStatusV", "deinit"]
+- ["21ssigmaapiswiftsample337Ssigmaapi_Markethub_V1_ExchangeStatusV", "exchange"]
+- ["21ssigmaapiswiftsample337Ssigmaapi_Markethub_V1_ExchangeStatusV", "hash"]
+- ["21ssigmaapiswiftsample337Ssigmaapi_Markethub_V1_ExchangeStatusV", "hashValue"]
+- ["21ssigmaapiswiftsample337Ssigmaapi_Markethub_V1_ExchangeStatusV", "init"]
+- ["21ssigmaapiswiftsample337Ssigmaapi_Markethub_V1_ExchangeStatusV", "isEqualTo"]
+- ["21ssigmaapiswiftsample337Ssigmaapi_Markethub_V1_ExchangeStatusV", "isInitialized"]
+- ["21ssigmaapiswiftsample337Ssigmaapi_Markethub_V1_ExchangeStatusV", "open"]
+- ["21ssigmaapiswiftsample337Ssigmaapi_Markethub_V1_ExchangeStatusV", "protoMessageName"]
+- ["21ssigmaapiswiftsample337Ssigmaapi_Markethub_V1_ExchangeStatusV", "traverse"]
+- ["21ssigmaapiswiftsample337Ssigmaapi_Markethub_V1_ExchangeStatusV", "unknownFields"]
+- ["21ssigmaapiswiftsample343Ssigmaapi_Markethub_V1_GetOrderBooksRequestV", "=="]
+- ["21ssigmaapiswiftsample343Ssigmaapi_Markethub_V1_GetOrderBooksRequestV", "Bool"]
+- ["21ssigmaapiswiftsample343Ssigmaapi_Markethub_V1_GetOrderBooksRequestV", "Ssigmaapi_Markethub_V1_GetOrderBooksRequest"]
+- ["21ssigmaapiswiftsample343Ssigmaapi_Markethub_V1_GetOrderBooksRequestV", "Ssigmaapi_Type_Market"]
+- ["21ssigmaapiswiftsample343Ssigmaapi_Markethub_V1_GetOrderBooksRequestV", "String"]
+- ["21ssigmaapiswiftsample343Ssigmaapi_Markethub_V1_GetOrderBooksRequestV", "SwiftProtobuf"]
+- ["21ssigmaapiswiftsample343Ssigmaapi_Markethub_V1_GetOrderBooksRequestV", "_protobuf_generated_isEqualTo"]
+- ["21ssigmaapiswiftsample343Ssigmaapi_Markethub_V1_GetOrderBooksRequestV", "_protobuf_nameMap"]
+- ["21ssigmaapiswiftsample343Ssigmaapi_Markethub_V1_GetOrderBooksRequestV", "_protobuf_package"]
+- ["21ssigmaapiswiftsample343Ssigmaapi_Markethub_V1_GetOrderBooksRequestV", "debugDescription"]
+- ["21ssigmaapiswiftsample343Ssigmaapi_Markethub_V1_GetOrderBooksRequestV", "decodeMessage"]
+- ["21ssigmaapiswiftsample343Ssigmaapi_Markethub_V1_GetOrderBooksRequestV", "deinit"]
+- ["21ssigmaapiswiftsample343Ssigmaapi_Markethub_V1_GetOrderBooksRequestV", "hash"]
+- ["21ssigmaapiswiftsample343Ssigmaapi_Markethub_V1_GetOrderBooksRequestV", "hashValue"]
+- ["21ssigmaapiswiftsample343Ssigmaapi_Markethub_V1_GetOrderBooksRequestV", "init"]
+- ["21ssigmaapiswiftsample343Ssigmaapi_Markethub_V1_GetOrderBooksRequestV", "isEqualTo"]
+- ["21ssigmaapiswiftsample343Ssigmaapi_Markethub_V1_GetOrderBooksRequestV", "isInitialized"]
+- ["21ssigmaapiswiftsample343Ssigmaapi_Markethub_V1_GetOrderBooksRequestV", "market"]
+- ["21ssigmaapiswiftsample343Ssigmaapi_Markethub_V1_GetOrderBooksRequestV", "protoMessageName"]
+- ["21ssigmaapiswiftsample343Ssigmaapi_Markethub_V1_GetOrderBooksRequestV", "traverse"]
+- ["21ssigmaapiswiftsample343Ssigmaapi_Markethub_V1_GetOrderBooksRequestV", "unknownFields"]
+- ["21ssigmaapiswiftsample344Ssigmaapi_Markethub_V1_GetOrderBooksResponseV", "=="]
+- ["21ssigmaapiswiftsample344Ssigmaapi_Markethub_V1_GetOrderBooksResponseV", "Bool"]
+- ["21ssigmaapiswiftsample344Ssigmaapi_Markethub_V1_GetOrderBooksResponseV", "Int64"]
+- ["21ssigmaapiswiftsample344Ssigmaapi_Markethub_V1_GetOrderBooksResponseV", "Ssigmaapi_Markethub_V1_ExchangeStatus"]
+- ["21ssigmaapiswiftsample344Ssigmaapi_Markethub_V1_GetOrderBooksResponseV", "Ssigmaapi_Markethub_V1_GetOrderBooksResponse"]
+- ["21ssigmaapiswiftsample344Ssigmaapi_Markethub_V1_GetOrderBooksResponseV", "Ssigmaapi_Type_OrderBook"]
+- ["21ssigmaapiswiftsample344Ssigmaapi_Markethub_V1_GetOrderBooksResponseV", "String"]
+- ["21ssigmaapiswiftsample344Ssigmaapi_Markethub_V1_GetOrderBooksResponseV", "SwiftProtobuf"]
+- ["21ssigmaapiswiftsample344Ssigmaapi_Markethub_V1_GetOrderBooksResponseV", "_protobuf_generated_isEqualTo"]
+- ["21ssigmaapiswiftsample344Ssigmaapi_Markethub_V1_GetOrderBooksResponseV", "_protobuf_nameMap"]
+- ["21ssigmaapiswiftsample344Ssigmaapi_Markethub_V1_GetOrderBooksResponseV", "_protobuf_package"]
+- ["21ssigmaapiswiftsample344Ssigmaapi_Markethub_V1_GetOrderBooksResponseV", "all"]
+- ["21ssigmaapiswiftsample344Ssigmaapi_Markethub_V1_GetOrderBooksResponseV", "debugDescription"]
+- ["21ssigmaapiswiftsample344Ssigmaapi_Markethub_V1_GetOrderBooksResponseV", "decodeMessage"]
+- ["21ssigmaapiswiftsample344Ssigmaapi_Markethub_V1_GetOrderBooksResponseV", "deinit"]
+- ["21ssigmaapiswiftsample344Ssigmaapi_Markethub_V1_GetOrderBooksResponseV", "exchangeStatus"]
+- ["21ssigmaapiswiftsample344Ssigmaapi_Markethub_V1_GetOrderBooksResponseV", "hash"]
+- ["21ssigmaapiswiftsample344Ssigmaapi_Markethub_V1_GetOrderBooksResponseV", "hashValue"]
+- ["21ssigmaapiswiftsample344Ssigmaapi_Markethub_V1_GetOrderBooksResponseV", "init"]
+- ["21ssigmaapiswiftsample344Ssigmaapi_Markethub_V1_GetOrderBooksResponseV", "isEqualTo"]
+- ["21ssigmaapiswiftsample344Ssigmaapi_Markethub_V1_GetOrderBooksResponseV", "isInitialized"]
+- ["21ssigmaapiswiftsample344Ssigmaapi_Markethub_V1_GetOrderBooksResponseV", "protoMessageName"]
+- ["21ssigmaapiswiftsample344Ssigmaapi_Markethub_V1_GetOrderBooksResponseV", "timestamp"]
+- ["21ssigmaapiswiftsample344Ssigmaapi_Markethub_V1_GetOrderBooksResponseV", "traverse"]
+- ["21ssigmaapiswiftsample344Ssigmaapi_Markethub_V1_GetOrderBooksResponseV", "unknownFields"]
+- ["21ssigmaapiswiftsample352Ssigmaapi_Markethub_V1_GetTradesAndOrderBooksRequestV", "=="]
+- ["21ssigmaapiswiftsample352Ssigmaapi_Markethub_V1_GetTradesAndOrderBooksRequestV", "Bool"]
+- ["21ssigmaapiswiftsample352Ssigmaapi_Markethub_V1_GetTradesAndOrderBooksRequestV", "Ssigmaapi_Markethub_V1_GetOrderBooksRequest"]
+- ["21ssigmaapiswiftsample352Ssigmaapi_Markethub_V1_GetTradesAndOrderBooksRequestV", "Ssigmaapi_Markethub_V1_GetTradesAndOrderBooksRequest"]
+- ["21ssigmaapiswiftsample352Ssigmaapi_Markethub_V1_GetTradesAndOrderBooksRequestV", "Ssigmaapi_Markethub_V1_GetTradesRequest"]
+- ["21ssigmaapiswiftsample352Ssigmaapi_Markethub_V1_GetTradesAndOrderBooksRequestV", "String"]
+- ["21ssigmaapiswiftsample352Ssigmaapi_Markethub_V1_GetTradesAndOrderBooksRequestV", "SwiftProtobuf"]
+- ["21ssigmaapiswiftsample352Ssigmaapi_Markethub_V1_GetTradesAndOrderBooksRequestV", "_StorageClass"]
+- ["21ssigmaapiswiftsample352Ssigmaapi_Markethub_V1_GetTradesAndOrderBooksRequestV", "_protobuf_generated_isEqualTo"]
+- ["21ssigmaapiswiftsample352Ssigmaapi_Markethub_V1_GetTradesAndOrderBooksRequestV", "_protobuf_nameMap"]
+- ["21ssigmaapiswiftsample352Ssigmaapi_Markethub_V1_GetTradesAndOrderBooksRequestV", "_protobuf_package"]
+- !private ["21ssigmaapiswiftsample352Ssigmaapi_Markethub_V1_GetTradesAndOrderBooksRequestV", "_storage"]
+- !private ["21ssigmaapiswiftsample352Ssigmaapi_Markethub_V1_GetTradesAndOrderBooksRequestV", "_uniqueStorage"]
+- ["21ssigmaapiswiftsample352Ssigmaapi_Markethub_V1_GetTradesAndOrderBooksRequestV", "clearOrderbooksReq"]
+- ["21ssigmaapiswiftsample352Ssigmaapi_Markethub_V1_GetTradesAndOrderBooksRequestV", "clearTradesReq"]
+- ["21ssigmaapiswiftsample352Ssigmaapi_Markethub_V1_GetTradesAndOrderBooksRequestV", "debugDescription"]
+- ["21ssigmaapiswiftsample352Ssigmaapi_Markethub_V1_GetTradesAndOrderBooksRequestV", "decodeMessage"]
+- ["21ssigmaapiswiftsample352Ssigmaapi_Markethub_V1_GetTradesAndOrderBooksRequestV", "deinit"]
+- ["21ssigmaapiswiftsample352Ssigmaapi_Markethub_V1_GetTradesAndOrderBooksRequestV", "hasOrderbooksReq"]
+- ["21ssigmaapiswiftsample352Ssigmaapi_Markethub_V1_GetTradesAndOrderBooksRequestV", "hasTradesReq"]
+- ["21ssigmaapiswiftsample352Ssigmaapi_Markethub_V1_GetTradesAndOrderBooksRequestV", "hash"]
+- ["21ssigmaapiswiftsample352Ssigmaapi_Markethub_V1_GetTradesAndOrderBooksRequestV", "hashValue"]
+- ["21ssigmaapiswiftsample352Ssigmaapi_Markethub_V1_GetTradesAndOrderBooksRequestV", "init"]
+- ["21ssigmaapiswiftsample352Ssigmaapi_Markethub_V1_GetTradesAndOrderBooksRequestV", "isEqualTo"]
+- ["21ssigmaapiswiftsample352Ssigmaapi_Markethub_V1_GetTradesAndOrderBooksRequestV", "isInitialized"]
+- !private ["21ssigmaapiswiftsample352Ssigmaapi_Markethub_V1_GetTradesAndOrderBooksRequestV", "isKnownUniquelyReferenced"]
+- ["21ssigmaapiswiftsample352Ssigmaapi_Markethub_V1_GetTradesAndOrderBooksRequestV", "orderbooksReq"]
+- ["21ssigmaapiswiftsample352Ssigmaapi_Markethub_V1_GetTradesAndOrderBooksRequestV", "protoMessageName"]
+- ["21ssigmaapiswiftsample352Ssigmaapi_Markethub_V1_GetTradesAndOrderBooksRequestV", "tradesReq"]
+- ["21ssigmaapiswiftsample352Ssigmaapi_Markethub_V1_GetTradesAndOrderBooksRequestV", "traverse"]
+- ["21ssigmaapiswiftsample352Ssigmaapi_Markethub_V1_GetTradesAndOrderBooksRequestV", "unknownFields"]
+- !private ["21ssigmaapiswiftsample352Ssigmaapi_Markethub_V1_GetTradesAndOrderBooksRequestV", "withExtendedLifetime"]
+- ["21ssigmaapiswiftsample353Ssigmaapi_Markethub_V1_GetTradesAndOrderBooksResponseV", "=="]
+- ["21ssigmaapiswiftsample353Ssigmaapi_Markethub_V1_GetTradesAndOrderBooksResponseV", "Bool"]
+- ["21ssigmaapiswiftsample353Ssigmaapi_Markethub_V1_GetTradesAndOrderBooksResponseV", "Ssigmaapi_Markethub_V1_ExchangeStatus"]
+- ["21ssigmaapiswiftsample353Ssigmaapi_Markethub_V1_GetTradesAndOrderBooksResponseV", "Ssigmaapi_Markethub_V1_GetOrderBooksResponse"]
+- ["21ssigmaapiswiftsample353Ssigmaapi_Markethub_V1_GetTradesAndOrderBooksResponseV", "Ssigmaapi_Markethub_V1_GetTradesAndOrderBooksResponse"]
+- ["21ssigmaapiswiftsample353Ssigmaapi_Markethub_V1_GetTradesAndOrderBooksResponseV", "Ssigmaapi_Markethub_V1_GetTradesResponse"]
+- ["21ssigmaapiswiftsample353Ssigmaapi_Markethub_V1_GetTradesAndOrderBooksResponseV", "String"]
+- ["21ssigmaapiswiftsample353Ssigmaapi_Markethub_V1_GetTradesAndOrderBooksResponseV", "SwiftProtobuf"]
+- ["21ssigmaapiswiftsample353Ssigmaapi_Markethub_V1_GetTradesAndOrderBooksResponseV", "_StorageClass"]
+- ["21ssigmaapiswiftsample353Ssigmaapi_Markethub_V1_GetTradesAndOrderBooksResponseV", "_protobuf_generated_isEqualTo"]
+- ["21ssigmaapiswiftsample353Ssigmaapi_Markethub_V1_GetTradesAndOrderBooksResponseV", "_protobuf_nameMap"]
+- ["21ssigmaapiswiftsample353Ssigmaapi_Markethub_V1_GetTradesAndOrderBooksResponseV", "_protobuf_package"]
+- !private ["21ssigmaapiswiftsample353Ssigmaapi_Markethub_V1_GetTradesAndOrderBooksResponseV", "_storage"]
+- !private ["21ssigmaapiswiftsample353Ssigmaapi_Markethub_V1_GetTradesAndOrderBooksResponseV", "_uniqueStorage"]
+- ["21ssigmaapiswiftsample353Ssigmaapi_Markethub_V1_GetTradesAndOrderBooksResponseV", "clearOrderbooksRes"]
+- ["21ssigmaapiswiftsample353Ssigmaapi_Markethub_V1_GetTradesAndOrderBooksResponseV", "clearTradesRes"]
+- ["21ssigmaapiswiftsample353Ssigmaapi_Markethub_V1_GetTradesAndOrderBooksResponseV", "debugDescription"]
+- ["21ssigmaapiswiftsample353Ssigmaapi_Markethub_V1_GetTradesAndOrderBooksResponseV", "decodeMessage"]
+- ["21ssigmaapiswiftsample353Ssigmaapi_Markethub_V1_GetTradesAndOrderBooksResponseV", "deinit"]
+- ["21ssigmaapiswiftsample353Ssigmaapi_Markethub_V1_GetTradesAndOrderBooksResponseV", "exchangeStatus"]
+- ["21ssigmaapiswiftsample353Ssigmaapi_Markethub_V1_GetTradesAndOrderBooksResponseV", "hasOrderbooksRes"]
+- ["21ssigmaapiswiftsample353Ssigmaapi_Markethub_V1_GetTradesAndOrderBooksResponseV", "hasTradesRes"]
+- ["21ssigmaapiswiftsample353Ssigmaapi_Markethub_V1_GetTradesAndOrderBooksResponseV", "hash"]
+- ["21ssigmaapiswiftsample353Ssigmaapi_Markethub_V1_GetTradesAndOrderBooksResponseV", "hashValue"]
+- ["21ssigmaapiswiftsample353Ssigmaapi_Markethub_V1_GetTradesAndOrderBooksResponseV", "init"]
+- ["21ssigmaapiswiftsample353Ssigmaapi_Markethub_V1_GetTradesAndOrderBooksResponseV", "isEqualTo"]
+- ["21ssigmaapiswiftsample353Ssigmaapi_Markethub_V1_GetTradesAndOrderBooksResponseV", "isInitialized"]
+- !private ["21ssigmaapiswiftsample353Ssigmaapi_Markethub_V1_GetTradesAndOrderBooksResponseV", "isKnownUniquelyReferenced"]
+- ["21ssigmaapiswiftsample353Ssigmaapi_Markethub_V1_GetTradesAndOrderBooksResponseV", "orderbooksRes"]
+- ["21ssigmaapiswiftsample353Ssigmaapi_Markethub_V1_GetTradesAndOrderBooksResponseV", "protoMessageName"]
+- ["21ssigmaapiswiftsample353Ssigmaapi_Markethub_V1_GetTradesAndOrderBooksResponseV", "tradesRes"]
+- ["21ssigmaapiswiftsample353Ssigmaapi_Markethub_V1_GetTradesAndOrderBooksResponseV", "traverse"]
+- ["21ssigmaapiswiftsample353Ssigmaapi_Markethub_V1_GetTradesAndOrderBooksResponseV", "unknownFields"]
+- !private ["21ssigmaapiswiftsample353Ssigmaapi_Markethub_V1_GetTradesAndOrderBooksResponseV", "withExtendedLifetime"]
+- ["21ssigmaapiswiftsample339Ssigmaapi_Markethub_V1_GetTradesRequestV", "=="]
+- ["21ssigmaapiswiftsample339Ssigmaapi_Markethub_V1_GetTradesRequestV", "Bool"]
+- ["21ssigmaapiswiftsample339Ssigmaapi_Markethub_V1_GetTradesRequestV", "Int64"]
+- ["21ssigmaapiswiftsample339Ssigmaapi_Markethub_V1_GetTradesRequestV", "Ssigmaapi_Markethub_V1_GetTradesRequest"]
+- ["21ssigmaapiswiftsample339Ssigmaapi_Markethub_V1_GetTradesRequestV", "Ssigmaapi_Type_Market"]
+- ["21ssigmaapiswiftsample339Ssigmaapi_Markethub_V1_GetTradesRequestV", "String"]
+- ["21ssigmaapiswiftsample339Ssigmaapi_Markethub_V1_GetTradesRequestV", "SwiftProtobuf"]
+- ["21ssigmaapiswiftsample339Ssigmaapi_Markethub_V1_GetTradesRequestV", "_protobuf_generated_isEqualTo"]
+- ["21ssigmaapiswiftsample339Ssigmaapi_Markethub_V1_GetTradesRequestV", "_protobuf_nameMap"]
+- ["21ssigmaapiswiftsample339Ssigmaapi_Markethub_V1_GetTradesRequestV", "_protobuf_package"]
+- ["21ssigmaapiswiftsample339Ssigmaapi_Markethub_V1_GetTradesRequestV", "debugDescription"]
+- ["21ssigmaapiswiftsample339Ssigmaapi_Markethub_V1_GetTradesRequestV", "decodeMessage"]
+- ["21ssigmaapiswiftsample339Ssigmaapi_Markethub_V1_GetTradesRequestV", "deinit"]
+- ["21ssigmaapiswiftsample339Ssigmaapi_Markethub_V1_GetTradesRequestV", "hash"]
+- ["21ssigmaapiswiftsample339Ssigmaapi_Markethub_V1_GetTradesRequestV", "hashValue"]
+- ["21ssigmaapiswiftsample339Ssigmaapi_Markethub_V1_GetTradesRequestV", "init"]
+- ["21ssigmaapiswiftsample339Ssigmaapi_Markethub_V1_GetTradesRequestV", "isEqualTo"]
+- ["21ssigmaapiswiftsample339Ssigmaapi_Markethub_V1_GetTradesRequestV", "isInitialized"]
+- ["21ssigmaapiswiftsample339Ssigmaapi_Markethub_V1_GetTradesRequestV", "markets"]
+- ["21ssigmaapiswiftsample339Ssigmaapi_Markethub_V1_GetTradesRequestV", "protoMessageName"]
+- ["21ssigmaapiswiftsample339Ssigmaapi_Markethub_V1_GetTradesRequestV", "traverse"]
+- ["21ssigmaapiswiftsample339Ssigmaapi_Markethub_V1_GetTradesRequestV", "unknownFields"]
+- ["21ssigmaapiswiftsample339Ssigmaapi_Markethub_V1_GetTradesRequestV", "velocityWindowingSize"]
+- ["21ssigmaapiswiftsample339Ssigmaapi_Markethub_V1_GetTradesRequestV", "volatilityWindowingSize"]
+- ["21ssigmaapiswiftsample339Ssigmaapi_Markethub_V1_GetTradesRequestV", "volumeWindowingSize"]
+- ["21ssigmaapiswiftsample340Ssigmaapi_Markethub_V1_GetTradesResponseV", "=="]
+- ["21ssigmaapiswiftsample340Ssigmaapi_Markethub_V1_GetTradesResponseV", "Bool"]
+- ["21ssigmaapiswiftsample340Ssigmaapi_Markethub_V1_GetTradesResponseV", "Ssigmaapi_Markethub_V1_ExchangeStatus"]
+- ["21ssigmaapiswiftsample340Ssigmaapi_Markethub_V1_GetTradesResponseV", "Ssigmaapi_Markethub_V1_GetTradesResponse"]
+- ["21ssigmaapiswiftsample340Ssigmaapi_Markethub_V1_GetTradesResponseV", "Ssigmaapi_Markethub_V1_TradesWithMarket"]
+- ["21ssigmaapiswiftsample340Ssigmaapi_Markethub_V1_GetTradesResponseV", "String"]
+- ["21ssigmaapiswiftsample340Ssigmaapi_Markethub_V1_GetTradesResponseV", "SwiftProtobuf"]
+- ["21ssigmaapiswiftsample340Ssigmaapi_Markethub_V1_GetTradesResponseV", "_protobuf_generated_isEqualTo"]
+- ["21ssigmaapiswiftsample340Ssigmaapi_Markethub_V1_GetTradesResponseV", "_protobuf_nameMap"]
+- ["21ssigmaapiswiftsample340Ssigmaapi_Markethub_V1_GetTradesResponseV", "_protobuf_package"]
+- ["21ssigmaapiswiftsample340Ssigmaapi_Markethub_V1_GetTradesResponseV", "debugDescription"]
+- ["21ssigmaapiswiftsample340Ssigmaapi_Markethub_V1_GetTradesResponseV", "decodeMessage"]
+- ["21ssigmaapiswiftsample340Ssigmaapi_Markethub_V1_GetTradesResponseV", "deinit"]
+- ["21ssigmaapiswiftsample340Ssigmaapi_Markethub_V1_GetTradesResponseV", "exchangeStatus"]
+- ["21ssigmaapiswiftsample340Ssigmaapi_Markethub_V1_GetTradesResponseV", "hash"]
+- ["21ssigmaapiswiftsample340Ssigmaapi_Markethub_V1_GetTradesResponseV", "hashValue"]
+- ["21ssigmaapiswiftsample340Ssigmaapi_Markethub_V1_GetTradesResponseV", "init"]
+- ["21ssigmaapiswiftsample340Ssigmaapi_Markethub_V1_GetTradesResponseV", "isEqualTo"]
+- ["21ssigmaapiswiftsample340Ssigmaapi_Markethub_V1_GetTradesResponseV", "isInitialized"]
+- ["21ssigmaapiswiftsample340Ssigmaapi_Markethub_V1_GetTradesResponseV", "protoMessageName"]
+- ["21ssigmaapiswiftsample340Ssigmaapi_Markethub_V1_GetTradesResponseV", "tradesWithMarket"]
+- ["21ssigmaapiswiftsample340Ssigmaapi_Markethub_V1_GetTradesResponseV", "traverse"]
+- ["21ssigmaapiswiftsample340Ssigmaapi_Markethub_V1_GetTradesResponseV", "unknownFields"]
+- ["21ssigmaapiswiftsample346Ssigmaapi_Markethub_V1_TradeWithAdditionalInfoV", "=="]
+- ["21ssigmaapiswiftsample346Ssigmaapi_Markethub_V1_TradeWithAdditionalInfoV", "Bool"]
+- ["21ssigmaapiswiftsample346Ssigmaapi_Markethub_V1_TradeWithAdditionalInfoV", "Double"]
+- ["21ssigmaapiswiftsample346Ssigmaapi_Markethub_V1_TradeWithAdditionalInfoV", "Int64"]
+- ["21ssigmaapiswiftsample346Ssigmaapi_Markethub_V1_TradeWithAdditionalInfoV", "Ssigmaapi_Markethub_V1_TradeWithAdditionalInfo"]
+- ["21ssigmaapiswiftsample346Ssigmaapi_Markethub_V1_TradeWithAdditionalInfoV", "Ssigmaapi_Type_Trade"]
+- ["21ssigmaapiswiftsample346Ssigmaapi_Markethub_V1_TradeWithAdditionalInfoV", "String"]
+- ["21ssigmaapiswiftsample346Ssigmaapi_Markethub_V1_TradeWithAdditionalInfoV", "SwiftProtobuf"]
+- ["21ssigmaapiswiftsample346Ssigmaapi_Markethub_V1_TradeWithAdditionalInfoV", "_StorageClass"]
+- ["21ssigmaapiswiftsample346Ssigmaapi_Markethub_V1_TradeWithAdditionalInfoV", "_protobuf_generated_isEqualTo"]
+- ["21ssigmaapiswiftsample346Ssigmaapi_Markethub_V1_TradeWithAdditionalInfoV", "_protobuf_nameMap"]
+- ["21ssigmaapiswiftsample346Ssigmaapi_Markethub_V1_TradeWithAdditionalInfoV", "_protobuf_package"]
+- !private ["21ssigmaapiswiftsample346Ssigmaapi_Markethub_V1_TradeWithAdditionalInfoV", "_storage"]
+- !private ["21ssigmaapiswiftsample346Ssigmaapi_Markethub_V1_TradeWithAdditionalInfoV", "_uniqueStorage"]
+- ["21ssigmaapiswiftsample346Ssigmaapi_Markethub_V1_TradeWithAdditionalInfoV", "acceleration"]
+- ["21ssigmaapiswiftsample346Ssigmaapi_Markethub_V1_TradeWithAdditionalInfoV", "clearTrade"]
+- ["21ssigmaapiswiftsample346Ssigmaapi_Markethub_V1_TradeWithAdditionalInfoV", "debugDescription"]
+- ["21ssigmaapiswiftsample346Ssigmaapi_Markethub_V1_TradeWithAdditionalInfoV", "decodeMessage"]
+- ["21ssigmaapiswiftsample346Ssigmaapi_Markethub_V1_TradeWithAdditionalInfoV", "deinit"]
+- ["21ssigmaapiswiftsample346Ssigmaapi_Markethub_V1_TradeWithAdditionalInfoV", "hasTrade"]
+- ["21ssigmaapiswiftsample346Ssigmaapi_Markethub_V1_TradeWithAdditionalInfoV", "hash"]
+- ["21ssigmaapiswiftsample346Ssigmaapi_Markethub_V1_TradeWithAdditionalInfoV", "hashValue"]
+- ["21ssigmaapiswiftsample346Ssigmaapi_Markethub_V1_TradeWithAdditionalInfoV", "init"]
+- ["21ssigmaapiswiftsample346Ssigmaapi_Markethub_V1_TradeWithAdditionalInfoV", "isEqualTo"]
+- ["21ssigmaapiswiftsample346Ssigmaapi_Markethub_V1_TradeWithAdditionalInfoV", "isInitialized"]
+- !private ["21ssigmaapiswiftsample346Ssigmaapi_Markethub_V1_TradeWithAdditionalInfoV", "isKnownUniquelyReferenced"]
+- ["21ssigmaapiswiftsample346Ssigmaapi_Markethub_V1_TradeWithAdditionalInfoV", "momentumRate"]
+- ["21ssigmaapiswiftsample346Ssigmaapi_Markethub_V1_TradeWithAdditionalInfoV", "protoMessageName"]
+- ["21ssigmaapiswiftsample346Ssigmaapi_Markethub_V1_TradeWithAdditionalInfoV", "trade"]
+- ["21ssigmaapiswiftsample346Ssigmaapi_Markethub_V1_TradeWithAdditionalInfoV", "traverse"]
+- ["21ssigmaapiswiftsample346Ssigmaapi_Markethub_V1_TradeWithAdditionalInfoV", "unknownFields"]
+- ["21ssigmaapiswiftsample346Ssigmaapi_Markethub_V1_TradeWithAdditionalInfoV", "velocity"]
+- ["21ssigmaapiswiftsample346Ssigmaapi_Markethub_V1_TradeWithAdditionalInfoV", "velocityWindowingSize"]
+- ["21ssigmaapiswiftsample346Ssigmaapi_Markethub_V1_TradeWithAdditionalInfoV", "volatility"]
+- ["21ssigmaapiswiftsample346Ssigmaapi_Markethub_V1_TradeWithAdditionalInfoV", "volatilityWindowingSize"]
+- ["21ssigmaapiswiftsample346Ssigmaapi_Markethub_V1_TradeWithAdditionalInfoV", "volumeBase"]
+- ["21ssigmaapiswiftsample346Ssigmaapi_Markethub_V1_TradeWithAdditionalInfoV", "volumeQuote"]
+- ["21ssigmaapiswiftsample346Ssigmaapi_Markethub_V1_TradeWithAdditionalInfoV", "volumeWindowingSize"]
+- !private ["21ssigmaapiswiftsample346Ssigmaapi_Markethub_V1_TradeWithAdditionalInfoV", "withExtendedLifetime"]
+- ["21ssigmaapiswiftsample339Ssigmaapi_Markethub_V1_TradesWithMarketV", "=="]
+- ["21ssigmaapiswiftsample339Ssigmaapi_Markethub_V1_TradesWithMarketV", "Bool"]
+- ["21ssigmaapiswiftsample339Ssigmaapi_Markethub_V1_TradesWithMarketV", "Ssigmaapi_Markethub_V1_TradeWithAdditionalInfo"]
+- ["21ssigmaapiswiftsample339Ssigmaapi_Markethub_V1_TradesWithMarketV", "Ssigmaapi_Markethub_V1_TradesWithMarket"]
+- ["21ssigmaapiswiftsample339Ssigmaapi_Markethub_V1_TradesWithMarketV", "Ssigmaapi_Type_Market"]
+- ["21ssigmaapiswiftsample339Ssigmaapi_Markethub_V1_TradesWithMarketV", "String"]
+- ["21ssigmaapiswiftsample339Ssigmaapi_Markethub_V1_TradesWithMarketV", "SwiftProtobuf"]
+- ["21ssigmaapiswiftsample339Ssigmaapi_Markethub_V1_TradesWithMarketV", "_StorageClass"]
+- ["21ssigmaapiswiftsample339Ssigmaapi_Markethub_V1_TradesWithMarketV", "_protobuf_generated_isEqualTo"]
+- ["21ssigmaapiswiftsample339Ssigmaapi_Markethub_V1_TradesWithMarketV", "_protobuf_nameMap"]
+- ["21ssigmaapiswiftsample339Ssigmaapi_Markethub_V1_TradesWithMarketV", "_protobuf_package"]
+- !private ["21ssigmaapiswiftsample339Ssigmaapi_Markethub_V1_TradesWithMarketV", "_storage"]
+- !private ["21ssigmaapiswiftsample339Ssigmaapi_Markethub_V1_TradesWithMarketV", "_uniqueStorage"]
+- ["21ssigmaapiswiftsample339Ssigmaapi_Markethub_V1_TradesWithMarketV", "clearMarket"]
+- ["21ssigmaapiswiftsample339Ssigmaapi_Markethub_V1_TradesWithMarketV", "debugDescription"]
+- ["21ssigmaapiswiftsample339Ssigmaapi_Markethub_V1_TradesWithMarketV", "decodeMessage"]
+- ["21ssigmaapiswiftsample339Ssigmaapi_Markethub_V1_TradesWithMarketV", "deinit"]
+- ["21ssigmaapiswiftsample339Ssigmaapi_Markethub_V1_TradesWithMarketV", "hasMarket"]
+- ["21ssigmaapiswiftsample339Ssigmaapi_Markethub_V1_TradesWithMarketV", "hash"]
+- ["21ssigmaapiswiftsample339Ssigmaapi_Markethub_V1_TradesWithMarketV", "hashValue"]
+- ["21ssigmaapiswiftsample339Ssigmaapi_Markethub_V1_TradesWithMarketV", "init"]
+- ["21ssigmaapiswiftsample339Ssigmaapi_Markethub_V1_TradesWithMarketV", "isEqualTo"]
+- ["21ssigmaapiswiftsample339Ssigmaapi_Markethub_V1_TradesWithMarketV", "isInitialized"]
+- !private ["21ssigmaapiswiftsample339Ssigmaapi_Markethub_V1_TradesWithMarketV", "isKnownUniquelyReferenced"]
+- ["21ssigmaapiswiftsample339Ssigmaapi_Markethub_V1_TradesWithMarketV", "market"]
+- ["21ssigmaapiswiftsample339Ssigmaapi_Markethub_V1_TradesWithMarketV", "protoMessageName"]
+- ["21ssigmaapiswiftsample339Ssigmaapi_Markethub_V1_TradesWithMarketV", "trades"]
+- ["21ssigmaapiswiftsample339Ssigmaapi_Markethub_V1_TradesWithMarketV", "traverse"]
+- ["21ssigmaapiswiftsample339Ssigmaapi_Markethub_V1_TradesWithMarketV", "unknownFields"]
+- !private ["21ssigmaapiswiftsample339Ssigmaapi_Markethub_V1_TradesWithMarketV", "withExtendedLifetime"]
+- ["21ssigmaapiswiftsample321Ssigmaapi_Type_MarketV", "deinit"]
+- !private ["21ssigmaapiswiftsample321Ssigmaapi_Type_MarketV", "init"]
+- ["21ssigmaapiswiftsample324Ssigmaapi_Type_OrderBookV", "deinit"]
+- !private ["21ssigmaapiswiftsample320Ssigmaapi_Type_TradeV", "deinit"]
+- !private ["21ssigmaapiswiftsample320Ssigmaapi_Type_TradeV", "init"]
+- ["s12StaticStringV", "init"]
+- ["s12StaticStringV", "init"]
+- ["SS", "init"]
+- ["SS", "init"]
+- !private ["SS", "isEmpty"]
+- ["Sy", "init"]
+- ["Sy", "init"]
+- !private ["Sy", "isEmpty"]
+- ["s16TextOutputStreamP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "isEmpty"]
+- ["s20TextOutputStreamableP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "isEmpty"]
+- ["13SwiftProtobuf14UnknownStorageV", "init"]
+- !private ["13SwiftProtobuf14UnknownStorageV", "traverse"]
+- !private ["13SwiftProtobuf7VisitorP", "visitRepeatedMessageField"]
+- !private ["13SwiftProtobuf7VisitorP", "visitSingularBoolField"]
+- !private ["13SwiftProtobuf7VisitorP", "visitSingularDoubleField"]
+- !private ["13SwiftProtobuf7VisitorP", "visitSingularInt64Field"]
+- !private ["13SwiftProtobuf7VisitorP", "visitSingularMessageField"]
+- !private ["13SwiftProtobuf7VisitorP", "visitSingularStringField"]
+- ["21ssigmaapiswiftsample335_GeneratedWithProtocGenSwiftVersion33_BF1B19B0BF2254120355555B52322CF0LLV2_2V", "deinit"]
+- ["21ssigmaapiswiftsample335_GeneratedWithProtocGenSwiftVersion33_BF1B19B0BF2254120355555B52322CF0LLV2_2V", "init"]
+- !private ["s24_DestructorSafeContainerP", "isEmpty"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "isEmpty"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "isEmpty"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "isEmpty"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "isEmpty"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "isEmpty"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "isEmpty"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isEmpty"]
+- !private ["13SwiftProtobuf26_MessageImplementationBaseP", "Ssigmaapi_Markethub_V1_GetOrderBooksRequest"]
+- !private ["13SwiftProtobuf26_MessageImplementationBaseP", "Ssigmaapi_Markethub_V1_GetOrderBooksResponse"]
+- !private ["13SwiftProtobuf26_MessageImplementationBaseP", "Ssigmaapi_Markethub_V1_GetTradesRequest"]
+- !private ["13SwiftProtobuf26_MessageImplementationBaseP", "Ssigmaapi_Markethub_V1_GetTradesResponse"]
+- !private ["13SwiftProtobuf26_MessageImplementationBaseP", "Ssigmaapi_Type_Market"]
+- !private ["13SwiftProtobuf26_MessageImplementationBaseP", "Ssigmaapi_Type_Trade"]
+- ["13SwiftProtobuf26_MessageImplementationBaseP", "String"]
+- ["13SwiftProtobuf26_MessageImplementationBaseP", "SwiftProtobuf"]
+- ["13SwiftProtobuf26_MessageImplementationBaseP", ""]
+- ["13SwiftProtobuf26_MessageImplementationBaseP", "_StorageClass"]
+- ["13SwiftProtobuf26_MessageImplementationBaseP", "_protobuf_generated_isEqualTo"]
+- ["13SwiftProtobuf26_MessageImplementationBaseP", "_protobuf_nameMap"]
+- ["13SwiftProtobuf26_MessageImplementationBaseP", "_protobuf_package"]
+- !private ["13SwiftProtobuf26_MessageImplementationBaseP", "_storage"]
+- !private ["13SwiftProtobuf26_MessageImplementationBaseP", "_uniqueStorage"]
+- !private ["13SwiftProtobuf26_MessageImplementationBaseP", "all"]
+- ["13SwiftProtobuf26_MessageImplementationBaseP", "debugDescription"]
+- ["13SwiftProtobuf26_MessageImplementationBaseP", "decodeMessage"]
+- !private ["13SwiftProtobuf26_MessageImplementationBaseP", "exchange"]
+- !private ["13SwiftProtobuf26_MessageImplementationBaseP", "exchangeStatus"]
+- ["13SwiftProtobuf26_MessageImplementationBaseP", "hash"]
+- ["13SwiftProtobuf26_MessageImplementationBaseP", "hashValue"]
+- ["13SwiftProtobuf26_MessageImplementationBaseP", "init"]
+- ["13SwiftProtobuf26_MessageImplementationBaseP", "isEqualTo"]
+- ["13SwiftProtobuf26_MessageImplementationBaseP", "isInitialized"]
+- !private ["13SwiftProtobuf26_MessageImplementationBaseP", "isKnownUniquelyReferenced"]
+- !private ["13SwiftProtobuf26_MessageImplementationBaseP", "market"]
+- !private ["13SwiftProtobuf26_MessageImplementationBaseP", "markets"]
+- !private ["13SwiftProtobuf26_MessageImplementationBaseP", "open"]
+- ["13SwiftProtobuf26_MessageImplementationBaseP", "protoMessageName"]
+- !private ["13SwiftProtobuf26_MessageImplementationBaseP", "timestamp"]
+- !private ["13SwiftProtobuf26_MessageImplementationBaseP", "tradesWithMarket"]
+- ["13SwiftProtobuf26_MessageImplementationBaseP", "traverse"]
+- ["13SwiftProtobuf26_MessageImplementationBaseP", "unknownFields"]
+- !private ["13SwiftProtobuf26_MessageImplementationBaseP", "velocityWindowingSize"]
+- !private ["13SwiftProtobuf26_MessageImplementationBaseP", "volatilityWindowingSize"]
+- !private ["13SwiftProtobuf26_MessageImplementationBaseP", "volumeWindowingSize"]
+- !private ["13SwiftProtobuf26_MessageImplementationBaseP", "withExtendedLifetime"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "isEmpty"]
+- !private ["13SwiftProtobuf19_ProtoNameProvidingP", "Ssigmaapi_Markethub_V1_GetOrderBooksRequest"]
+- !private ["13SwiftProtobuf19_ProtoNameProvidingP", "Ssigmaapi_Markethub_V1_GetOrderBooksResponse"]
+- !private ["13SwiftProtobuf19_ProtoNameProvidingP", "Ssigmaapi_Markethub_V1_GetTradesRequest"]
+- !private ["13SwiftProtobuf19_ProtoNameProvidingP", "Ssigmaapi_Markethub_V1_GetTradesResponse"]
+- !private ["13SwiftProtobuf19_ProtoNameProvidingP", "Ssigmaapi_Type_Market"]
+- !private ["13SwiftProtobuf19_ProtoNameProvidingP", "Ssigmaapi_Type_Trade"]
+- ["13SwiftProtobuf19_ProtoNameProvidingP", "String"]
+- ["13SwiftProtobuf19_ProtoNameProvidingP", "SwiftProtobuf"]
+- ["13SwiftProtobuf19_ProtoNameProvidingP", ""]
+- ["13SwiftProtobuf19_ProtoNameProvidingP", "_StorageClass"]
+- ["13SwiftProtobuf19_ProtoNameProvidingP", "_protobuf_generated_isEqualTo"]
+- ["13SwiftProtobuf19_ProtoNameProvidingP", "_protobuf_nameMap"]
+- ["13SwiftProtobuf19_ProtoNameProvidingP", "_protobuf_package"]
+- !private ["13SwiftProtobuf19_ProtoNameProvidingP", "_storage"]
+- !private ["13SwiftProtobuf19_ProtoNameProvidingP", "_uniqueStorage"]
+- !private ["13SwiftProtobuf19_ProtoNameProvidingP", "all"]
+- ["13SwiftProtobuf19_ProtoNameProvidingP", "debugDescription"]
+- ["13SwiftProtobuf19_ProtoNameProvidingP", "decodeMessage"]
+- !private ["13SwiftProtobuf19_ProtoNameProvidingP", "exchange"]
+- !private ["13SwiftProtobuf19_ProtoNameProvidingP", "exchangeStatus"]
+- ["13SwiftProtobuf19_ProtoNameProvidingP", "hash"]
+- ["13SwiftProtobuf19_ProtoNameProvidingP", "hashValue"]
+- ["13SwiftProtobuf19_ProtoNameProvidingP", "init"]
+- ["13SwiftProtobuf19_ProtoNameProvidingP", "isEqualTo"]
+- ["13SwiftProtobuf19_ProtoNameProvidingP", "isInitialized"]
+- !private ["13SwiftProtobuf19_ProtoNameProvidingP", "isKnownUniquelyReferenced"]
+- !private ["13SwiftProtobuf19_ProtoNameProvidingP", "market"]
+- !private ["13SwiftProtobuf19_ProtoNameProvidingP", "markets"]
+- !private ["13SwiftProtobuf19_ProtoNameProvidingP", "open"]
+- ["13SwiftProtobuf19_ProtoNameProvidingP", "protoMessageName"]
+- !private ["13SwiftProtobuf19_ProtoNameProvidingP", "timestamp"]
+- !private ["13SwiftProtobuf19_ProtoNameProvidingP", "tradesWithMarket"]
+- ["13SwiftProtobuf19_ProtoNameProvidingP", "traverse"]
+- ["13SwiftProtobuf19_ProtoNameProvidingP", "unknownFields"]
+- !private ["13SwiftProtobuf19_ProtoNameProvidingP", "velocityWindowingSize"]
+- !private ["13SwiftProtobuf19_ProtoNameProvidingP", "volatilityWindowingSize"]
+- !private ["13SwiftProtobuf19_ProtoNameProvidingP", "volumeWindowingSize"]
+- !private ["13SwiftProtobuf19_ProtoNameProvidingP", "withExtendedLifetime"]
+- ["s16_SwiftStringViewP", "init"]
+- ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "isEmpty"]
+depends-nominal:
+- !private "Sa"
+- !private "s13ArrayProtocolP"
+- "SK"
+- !private "Sb"
+- "s7CVarArgP"
+- "Sl"
+- "SL"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- !private "13SwiftProtobuf7DecoderP"
+- "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- "s25LosslessStringConvertibleP"
+- "13SwiftProtobuf7MessageP"
+- "s10MirrorPathP"
+- !private "SM"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- "13SwiftProtobuf8_NameMapV0C11DescriptionO"
+- "13SwiftProtobuf0B15APIVersionCheckP"
+- "13SwiftProtobuf0B12APIVersion_2P"
+- !private "Sk"
+- "Sm"
+- "ST"
+- "21ssigmaapiswiftsample337Ssigmaapi_Markethub_V1_ExchangeStatusV"
+- "21ssigmaapiswiftsample343Ssigmaapi_Markethub_V1_GetOrderBooksRequestV"
+- "21ssigmaapiswiftsample344Ssigmaapi_Markethub_V1_GetOrderBooksResponseV"
+- "21ssigmaapiswiftsample352Ssigmaapi_Markethub_V1_GetTradesAndOrderBooksRequestV"
+- "21ssigmaapiswiftsample353Ssigmaapi_Markethub_V1_GetTradesAndOrderBooksResponseV"
+- "21ssigmaapiswiftsample339Ssigmaapi_Markethub_V1_GetTradesRequestV"
+- "21ssigmaapiswiftsample340Ssigmaapi_Markethub_V1_GetTradesResponseV"
+- "21ssigmaapiswiftsample346Ssigmaapi_Markethub_V1_TradeWithAdditionalInfoV"
+- "21ssigmaapiswiftsample339Ssigmaapi_Markethub_V1_TradesWithMarketV"
+- "21ssigmaapiswiftsample321Ssigmaapi_Type_MarketV"
+- "21ssigmaapiswiftsample324Ssigmaapi_Type_OrderBookV"
+- !private "21ssigmaapiswiftsample320Ssigmaapi_Type_TradeV"
+- "s12StaticStringV"
+- "SS"
+- "Sy"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "13SwiftProtobuf14UnknownStorageV"
+- !private "13SwiftProtobuf7VisitorP"
+- "21ssigmaapiswiftsample335_GeneratedWithProtocGenSwiftVersion33_BF1B19B0BF2254120355555B52322CF0LLV2_2V"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- "13SwiftProtobuf26_MessageImplementationBaseP"
+- "s21_ObjectiveCBridgeableP"
+- "13SwiftProtobuf19_ProtoNameProvidingP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Users/kaito/Documents/GitHub/ssigmaapiswiftsample3/Carthage/Build/iOS/SwiftGRPC.framework/Modules/SwiftGRPC.swiftmodule/arm64.swiftmodule"
+- "/Users/kaito/Documents/GitHub/ssigmaapiswiftsample3/Carthage/Build/iOS/SwiftProtobuf.framework/Modules/SwiftProtobuf.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/kaito/Documents/GitHub/ssigmaapiswiftsample3/Carthage/Build/iOS/CgRPC.framework/Headers/cgrpc.h"
+- "/Users/kaito/Documents/GitHub/ssigmaapiswiftsample3/Carthage/Build/iOS/CgRPC.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "e19767472c5faf9a976d9fe30ea880a3"

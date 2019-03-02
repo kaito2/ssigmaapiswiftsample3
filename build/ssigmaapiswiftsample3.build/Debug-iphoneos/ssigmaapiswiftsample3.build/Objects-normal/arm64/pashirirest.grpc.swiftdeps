@@ -1,0 +1,378 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Ssigmaapi_Pashirirest_V1_PashiriRestServiceV1GetOrderBookCall"
+- "Ssigmaapi_Pashirirest_V1_PashiriRestServiceV1Service"
+- "Ssigmaapi_Pashirirest_V1_PashiriRestServiceV1ServiceClient"
+- "Ssigmaapi_Pashirirest_V1_PashiriRestServiceV1Provider"
+- "Ssigmaapi_Pashirirest_V1_PashiriRestServiceV1GetOrderBookSession"
+provides-nominal:
+- "21ssigmaapiswiftsample3043Ssigmaapi_Pashirirest_V1_PashiriRestServiceD16GetOrderBookCallP"
+- "21ssigmaapiswiftsample3043Ssigmaapi_Pashirirest_V1_PashiriRestServicedG0P"
+- "21ssigmaapiswiftsample3043Ssigmaapi_Pashirirest_V1_PashiriRestServicedG6ClientC"
+- "21ssigmaapiswiftsample3043Ssigmaapi_Pashirirest_V1_PashiriRestServiceD8ProviderP"
+- "21ssigmaapiswiftsample3043Ssigmaapi_Pashirirest_V1_PashiriRestServiceD19GetOrderBookSessionP"
+provides-member:
+- ["21ssigmaapiswiftsample3043Ssigmaapi_Pashirirest_V1_PashiriRestServiceD16GetOrderBookCallP", ""]
+- ["21ssigmaapiswiftsample3043Ssigmaapi_Pashirirest_V1_PashiriRestServicedG0P", ""]
+- ["21ssigmaapiswiftsample3043Ssigmaapi_Pashirirest_V1_PashiriRestServicedG6ClientC", ""]
+- ["21ssigmaapiswiftsample3043Ssigmaapi_Pashirirest_V1_PashiriRestServiceD8ProviderP", ""]
+- ["21ssigmaapiswiftsample3043Ssigmaapi_Pashirirest_V1_PashiriRestServiceD19GetOrderBookSessionP", ""]
+- ["21ssigmaapiswiftsample3043Ssigmaapi_Pashirirest_V1_PashiriRestServiceD16GetOrderBookCallP", "receive"]
+- ["21ssigmaapiswiftsample3043Ssigmaapi_Pashirirest_V1_PashiriRestServiceD8ProviderP", "serviceName"]
+- ["21ssigmaapiswiftsample3043Ssigmaapi_Pashirirest_V1_PashiriRestServiceD8ProviderP", "handleMethod"]
+- ["21ssigmaapiswiftsample3043Ssigmaapi_Pashirirest_V1_PashiriRestServiceD19GetOrderBookSessionP", "send"]
+provides-dynamic-lookup:
+depends-top-level:
+- "CallResult"
+- !private "CastingPrecedence"
+- "ClientCallServerStreaming"
+- "ClientCallServerStreamingBase"
+- "DispatchTime"
+- "Error"
+- !private "HandleMethodError"
+- "Handler"
+- "ResultOrRPCError"
+- "ServerSessionServerStreaming"
+- "ServerSessionServerStreamingBase"
+- "ServerStatus"
+- "ServiceClient"
+- "ServiceClientBase"
+- "ServiceProvider"
+- "Ssigmaapi_Pashirirest_V1_PashiriRestServiceV1GetOrderBookCall"
+- !private "Ssigmaapi_Pashirirest_V1_PashiriRestServiceV1GetOrderBookCallBase"
+- "Ssigmaapi_Pashirirest_V1_PashiriRestServiceV1GetOrderBookSession"
+- !private "Ssigmaapi_Pashirirest_V1_PashiriRestServiceV1GetOrderBookSessionBase"
+- "Ssigmaapi_Pashirirest_V1_PashiriRestServiceV1Provider"
+- "Ssigmaapi_Pashirirest_V1_PashiriRestServiceV1Service"
+- "Ssigmaapi_Pashirirest_V1_PashiriRestServiceV1ServiceClient"
+- "Ssigmaapi_Type_Market"
+- "Ssigmaapi_Type_OrderBook"
+- "String"
+- !private "StringLiteralType"
+- "Void"
+- !private "~="
+depends-member:
+- !private ["SK", "init"]
+- !private ["SK", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- ["9SwiftGRPC10ClientCallP", "DispatchTime"]
+- ["9SwiftGRPC10ClientCallP", "ResultOrRPCError"]
+- ["9SwiftGRPC10ClientCallP", "Ssigmaapi_Type_OrderBook"]
+- ["9SwiftGRPC10ClientCallP", "Void"]
+- !private ["9SwiftGRPC10ClientCallP", ""]
+- ["9SwiftGRPC10ClientCallP", "_receive"]
+- !private ["9SwiftGRPC10ClientCallP", "init"]
+- !private ["9SwiftGRPC10ClientCallP", "init"]
+- ["9SwiftGRPC10ClientCallP", "receive"]
+- !private ["9SwiftGRPC10ClientCallP", "start"]
+- ["9SwiftGRPC14ClientCallBaseC", "String"]
+- ["9SwiftGRPC14ClientCallBaseC", "_receive"]
+- ["9SwiftGRPC14ClientCallBaseC", "init"]
+- !private ["9SwiftGRPC14ClientCallBaseC", "init"]
+- ["9SwiftGRPC14ClientCallBaseC", "method"]
+- ["9SwiftGRPC14ClientCallBaseC", "receive"]
+- !private ["9SwiftGRPC14ClientCallBaseC", "start"]
+- ["9SwiftGRPC25ClientCallServerStreamingP", "DispatchTime"]
+- ["9SwiftGRPC25ClientCallServerStreamingP", "ResultOrRPCError"]
+- ["9SwiftGRPC25ClientCallServerStreamingP", "Ssigmaapi_Type_OrderBook"]
+- ["9SwiftGRPC25ClientCallServerStreamingP", "Void"]
+- ["9SwiftGRPC25ClientCallServerStreamingP", ""]
+- ["9SwiftGRPC25ClientCallServerStreamingP", "_receive"]
+- !private ["9SwiftGRPC25ClientCallServerStreamingP", "init"]
+- !private ["9SwiftGRPC25ClientCallServerStreamingP", "init"]
+- ["9SwiftGRPC25ClientCallServerStreamingP", "receive"]
+- !private ["9SwiftGRPC25ClientCallServerStreamingP", "start"]
+- ["9SwiftGRPC29ClientCallServerStreamingBaseC", "String"]
+- !private ["9SwiftGRPC29ClientCallServerStreamingBaseC", ""]
+- ["9SwiftGRPC29ClientCallServerStreamingBaseC", "_receive"]
+- ["9SwiftGRPC29ClientCallServerStreamingBaseC", "init"]
+- !private ["9SwiftGRPC29ClientCallServerStreamingBaseC", "init"]
+- ["9SwiftGRPC29ClientCallServerStreamingBaseC", "method"]
+- ["9SwiftGRPC29ClientCallServerStreamingBaseC", "receive"]
+- !private ["9SwiftGRPC29ClientCallServerStreamingBaseC", "start"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["SL", "distantFuture"]
+- !private ["SL", "init"]
+- !private ["SL", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "init"]
+- !private ["Se", "init"]
+- !private ["8Dispatch0A4TimeV", "distantFuture"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "init"]
+- !private ["SE", "init"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "distantFuture"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "unknownMethod"]
+- !private ["s5ErrorP", "unknownMethod"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["9SwiftGRPC17HandleMethodErrorO", "unknownMethod"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "unknownMethod"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["Sm", "init"]
+- !private ["Sm", "init"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
+- ["9SwiftGRPC13ServerSessionP", "DispatchTime"]
+- ["9SwiftGRPC13ServerSessionP", "Error"]
+- ["9SwiftGRPC13ServerSessionP", "ServerStatus"]
+- ["9SwiftGRPC13ServerSessionP", "Ssigmaapi_Type_OrderBook"]
+- ["9SwiftGRPC13ServerSessionP", "Void"]
+- !private ["9SwiftGRPC13ServerSessionP", ""]
+- ["9SwiftGRPC13ServerSessionP", "_send"]
+- ["9SwiftGRPC13ServerSessionP", "close"]
+- !private ["9SwiftGRPC13ServerSessionP", "init"]
+- !private ["9SwiftGRPC13ServerSessionP", "init"]
+- !private ["9SwiftGRPC13ServerSessionP", "run"]
+- ["9SwiftGRPC13ServerSessionP", "send"]
+- ["9SwiftGRPC17ServerSessionBaseC", "_send"]
+- ["9SwiftGRPC17ServerSessionBaseC", "close"]
+- !private ["9SwiftGRPC17ServerSessionBaseC", "init"]
+- !private ["9SwiftGRPC17ServerSessionBaseC", "run"]
+- ["9SwiftGRPC17ServerSessionBaseC", "send"]
+- ["9SwiftGRPC013ServerSessionC9StreamingP", "DispatchTime"]
+- ["9SwiftGRPC013ServerSessionC9StreamingP", "Error"]
+- ["9SwiftGRPC013ServerSessionC9StreamingP", "ServerStatus"]
+- ["9SwiftGRPC013ServerSessionC9StreamingP", "Ssigmaapi_Type_OrderBook"]
+- ["9SwiftGRPC013ServerSessionC9StreamingP", "Void"]
+- ["9SwiftGRPC013ServerSessionC9StreamingP", ""]
+- ["9SwiftGRPC013ServerSessionC9StreamingP", "_send"]
+- ["9SwiftGRPC013ServerSessionC9StreamingP", "close"]
+- !private ["9SwiftGRPC013ServerSessionC9StreamingP", "init"]
+- !private ["9SwiftGRPC013ServerSessionC9StreamingP", "init"]
+- !private ["9SwiftGRPC013ServerSessionC9StreamingP", "run"]
+- ["9SwiftGRPC013ServerSessionC9StreamingP", "send"]
+- !private ["9SwiftGRPC013ServerSessionC13StreamingBaseC", ""]
+- ["9SwiftGRPC013ServerSessionC13StreamingBaseC", "_send"]
+- ["9SwiftGRPC013ServerSessionC13StreamingBaseC", "close"]
+- ["9SwiftGRPC013ServerSessionC13StreamingBaseC", "init"]
+- !private ["9SwiftGRPC013ServerSessionC13StreamingBaseC", "init"]
+- !private ["9SwiftGRPC013ServerSessionC13StreamingBaseC", "run"]
+- ["9SwiftGRPC013ServerSessionC13StreamingBaseC", "send"]
+- ["9SwiftGRPC13ServiceClientP", "CallResult"]
+- ["9SwiftGRPC13ServiceClientP", "Ssigmaapi_Pashirirest_V1_PashiriRestServiceV1GetOrderBookCall"]
+- !private ["9SwiftGRPC13ServiceClientP", "Ssigmaapi_Pashirirest_V1_PashiriRestServiceV1GetOrderBookCallBase"]
+- ["9SwiftGRPC13ServiceClientP", "Ssigmaapi_Type_Market"]
+- ["9SwiftGRPC13ServiceClientP", "Void"]
+- ["9SwiftGRPC13ServiceClientP", ""]
+- !private ["9SwiftGRPC13ServiceClientP", "channel"]
+- ["9SwiftGRPC13ServiceClientP", "getOrderBook"]
+- !private ["9SwiftGRPC13ServiceClientP", "init"]
+- !private ["9SwiftGRPC13ServiceClientP", "init"]
+- !private ["9SwiftGRPC13ServiceClientP", "metadata"]
+- ["9SwiftGRPC17ServiceClientBaseC", "CallResult"]
+- ["9SwiftGRPC17ServiceClientBaseC", "Ssigmaapi_Pashirirest_V1_PashiriRestServiceV1GetOrderBookCall"]
+- !private ["9SwiftGRPC17ServiceClientBaseC", "Ssigmaapi_Pashirirest_V1_PashiriRestServiceV1GetOrderBookCallBase"]
+- ["9SwiftGRPC17ServiceClientBaseC", "Ssigmaapi_Type_Market"]
+- ["9SwiftGRPC17ServiceClientBaseC", "Void"]
+- ["9SwiftGRPC17ServiceClientBaseC", ""]
+- !private ["9SwiftGRPC17ServiceClientBaseC", "channel"]
+- ["9SwiftGRPC17ServiceClientBaseC", "getOrderBook"]
+- ["9SwiftGRPC17ServiceClientBaseC", "init"]
+- !private ["9SwiftGRPC17ServiceClientBaseC", "init"]
+- !private ["9SwiftGRPC17ServiceClientBaseC", "metadata"]
+- !private ["9SwiftGRPC15ServiceProviderP", "HandleMethodError"]
+- ["9SwiftGRPC15ServiceProviderP", "Handler"]
+- ["9SwiftGRPC15ServiceProviderP", "ServerStatus"]
+- ["9SwiftGRPC15ServiceProviderP", "Ssigmaapi_Pashirirest_V1_PashiriRestServiceV1GetOrderBookSession"]
+- !private ["9SwiftGRPC15ServiceProviderP", "Ssigmaapi_Pashirirest_V1_PashiriRestServiceV1GetOrderBookSessionBase"]
+- ["9SwiftGRPC15ServiceProviderP", "Ssigmaapi_Type_Market"]
+- ["9SwiftGRPC15ServiceProviderP", "String"]
+- ["9SwiftGRPC15ServiceProviderP", ""]
+- !private ["9SwiftGRPC15ServiceProviderP", "getOrderBook"]
+- ["21ssigmaapiswiftsample3043Ssigmaapi_Pashirirest_V1_PashiriRestServiceD16GetOrderBookCallP", "DispatchTime"]
+- ["21ssigmaapiswiftsample3043Ssigmaapi_Pashirirest_V1_PashiriRestServiceD16GetOrderBookCallP", "ResultOrRPCError"]
+- ["21ssigmaapiswiftsample3043Ssigmaapi_Pashirirest_V1_PashiriRestServiceD16GetOrderBookCallP", "Ssigmaapi_Type_OrderBook"]
+- ["21ssigmaapiswiftsample3043Ssigmaapi_Pashirirest_V1_PashiriRestServiceD16GetOrderBookCallP", "Void"]
+- !private ["21ssigmaapiswiftsample3043Ssigmaapi_Pashirirest_V1_PashiriRestServiceD16GetOrderBookCallP", ""]
+- ["21ssigmaapiswiftsample3043Ssigmaapi_Pashirirest_V1_PashiriRestServiceD16GetOrderBookCallP", "_receive"]
+- !private ["21ssigmaapiswiftsample3043Ssigmaapi_Pashirirest_V1_PashiriRestServiceD16GetOrderBookCallP", "init"]
+- ["21ssigmaapiswiftsample3043Ssigmaapi_Pashirirest_V1_PashiriRestServiceD16GetOrderBookCallP", "receive"]
+- !private ["21ssigmaapiswiftsample3043Ssigmaapi_Pashirirest_V1_PashiriRestServiceD16GetOrderBookCallP", "start"]
+- ["21ssigmaapiswiftsample3043Ssigmaapi_Pashirirest_V1_PashiriRestServiceD19GetOrderBookSessionP", "DispatchTime"]
+- ["21ssigmaapiswiftsample3043Ssigmaapi_Pashirirest_V1_PashiriRestServiceD19GetOrderBookSessionP", "Error"]
+- ["21ssigmaapiswiftsample3043Ssigmaapi_Pashirirest_V1_PashiriRestServiceD19GetOrderBookSessionP", "ServerStatus"]
+- ["21ssigmaapiswiftsample3043Ssigmaapi_Pashirirest_V1_PashiriRestServiceD19GetOrderBookSessionP", "Ssigmaapi_Type_OrderBook"]
+- ["21ssigmaapiswiftsample3043Ssigmaapi_Pashirirest_V1_PashiriRestServiceD19GetOrderBookSessionP", "Void"]
+- !private ["21ssigmaapiswiftsample3043Ssigmaapi_Pashirirest_V1_PashiriRestServiceD19GetOrderBookSessionP", ""]
+- ["21ssigmaapiswiftsample3043Ssigmaapi_Pashirirest_V1_PashiriRestServiceD19GetOrderBookSessionP", "_send"]
+- ["21ssigmaapiswiftsample3043Ssigmaapi_Pashirirest_V1_PashiriRestServiceD19GetOrderBookSessionP", "close"]
+- !private ["21ssigmaapiswiftsample3043Ssigmaapi_Pashirirest_V1_PashiriRestServiceD19GetOrderBookSessionP", "init"]
+- !private ["21ssigmaapiswiftsample3043Ssigmaapi_Pashirirest_V1_PashiriRestServiceD19GetOrderBookSessionP", "run"]
+- ["21ssigmaapiswiftsample3043Ssigmaapi_Pashirirest_V1_PashiriRestServiceD19GetOrderBookSessionP", "send"]
+- !private ["21ssigmaapiswiftsample3043Ssigmaapi_Pashirirest_V1_PashiriRestServiceD8ProviderP", "HandleMethodError"]
+- ["21ssigmaapiswiftsample3043Ssigmaapi_Pashirirest_V1_PashiriRestServiceD8ProviderP", "Handler"]
+- ["21ssigmaapiswiftsample3043Ssigmaapi_Pashirirest_V1_PashiriRestServiceD8ProviderP", "ServerStatus"]
+- ["21ssigmaapiswiftsample3043Ssigmaapi_Pashirirest_V1_PashiriRestServiceD8ProviderP", "Ssigmaapi_Pashirirest_V1_PashiriRestServiceV1GetOrderBookSession"]
+- !private ["21ssigmaapiswiftsample3043Ssigmaapi_Pashirirest_V1_PashiriRestServiceD8ProviderP", "Ssigmaapi_Pashirirest_V1_PashiriRestServiceV1GetOrderBookSessionBase"]
+- ["21ssigmaapiswiftsample3043Ssigmaapi_Pashirirest_V1_PashiriRestServiceD8ProviderP", "Ssigmaapi_Type_Market"]
+- ["21ssigmaapiswiftsample3043Ssigmaapi_Pashirirest_V1_PashiriRestServiceD8ProviderP", "String"]
+- ["21ssigmaapiswiftsample3043Ssigmaapi_Pashirirest_V1_PashiriRestServiceD8ProviderP", "getOrderBook"]
+- ["21ssigmaapiswiftsample3043Ssigmaapi_Pashirirest_V1_PashiriRestServiceD8ProviderP", "handleMethod"]
+- ["21ssigmaapiswiftsample3043Ssigmaapi_Pashirirest_V1_PashiriRestServiceD8ProviderP", "serviceName"]
+- ["21ssigmaapiswiftsample3043Ssigmaapi_Pashirirest_V1_PashiriRestServicedG0P", "CallResult"]
+- ["21ssigmaapiswiftsample3043Ssigmaapi_Pashirirest_V1_PashiriRestServicedG0P", "Ssigmaapi_Pashirirest_V1_PashiriRestServiceV1GetOrderBookCall"]
+- !private ["21ssigmaapiswiftsample3043Ssigmaapi_Pashirirest_V1_PashiriRestServicedG0P", "Ssigmaapi_Pashirirest_V1_PashiriRestServiceV1GetOrderBookCallBase"]
+- ["21ssigmaapiswiftsample3043Ssigmaapi_Pashirirest_V1_PashiriRestServicedG0P", "Ssigmaapi_Type_Market"]
+- ["21ssigmaapiswiftsample3043Ssigmaapi_Pashirirest_V1_PashiriRestServicedG0P", "Void"]
+- ["21ssigmaapiswiftsample3043Ssigmaapi_Pashirirest_V1_PashiriRestServicedG0P", ""]
+- !private ["21ssigmaapiswiftsample3043Ssigmaapi_Pashirirest_V1_PashiriRestServicedG0P", "channel"]
+- ["21ssigmaapiswiftsample3043Ssigmaapi_Pashirirest_V1_PashiriRestServicedG0P", "getOrderBook"]
+- !private ["21ssigmaapiswiftsample3043Ssigmaapi_Pashirirest_V1_PashiriRestServicedG0P", "metadata"]
+- ["21ssigmaapiswiftsample3043Ssigmaapi_Pashirirest_V1_PashiriRestServicedG6ClientC", "CallResult"]
+- ["21ssigmaapiswiftsample3043Ssigmaapi_Pashirirest_V1_PashiriRestServicedG6ClientC", "Ssigmaapi_Pashirirest_V1_PashiriRestServiceV1GetOrderBookCall"]
+- !private ["21ssigmaapiswiftsample3043Ssigmaapi_Pashirirest_V1_PashiriRestServicedG6ClientC", "Ssigmaapi_Pashirirest_V1_PashiriRestServiceV1GetOrderBookCallBase"]
+- ["21ssigmaapiswiftsample3043Ssigmaapi_Pashirirest_V1_PashiriRestServicedG6ClientC", "Ssigmaapi_Type_Market"]
+- ["21ssigmaapiswiftsample3043Ssigmaapi_Pashirirest_V1_PashiriRestServicedG6ClientC", "Void"]
+- !private ["21ssigmaapiswiftsample3043Ssigmaapi_Pashirirest_V1_PashiriRestServicedG6ClientC", "channel"]
+- ["21ssigmaapiswiftsample3043Ssigmaapi_Pashirirest_V1_PashiriRestServicedG6ClientC", "deinit"]
+- ["21ssigmaapiswiftsample3043Ssigmaapi_Pashirirest_V1_PashiriRestServicedG6ClientC", "getOrderBook"]
+- ["21ssigmaapiswiftsample3043Ssigmaapi_Pashirirest_V1_PashiriRestServicedG6ClientC", "init"]
+- !private ["21ssigmaapiswiftsample3043Ssigmaapi_Pashirirest_V1_PashiriRestServicedG6ClientC", "metadata"]
+- ["21ssigmaapiswiftsample321Ssigmaapi_Type_MarketV", "deinit"]
+- ["21ssigmaapiswiftsample324Ssigmaapi_Type_OrderBookV", "deinit"]
+- !private ["9SwiftGRPC15StreamReceivingP", ""]
+- ["9SwiftGRPC15StreamReceivingP", "_receive"]
+- !private ["9SwiftGRPC15StreamReceivingP", "init"]
+- !private ["9SwiftGRPC15StreamReceivingP", "init"]
+- ["9SwiftGRPC15StreamReceivingP", "receive"]
+- !private ["9SwiftGRPC15StreamReceivingP", "start"]
+- !private ["9SwiftGRPC13StreamSendingP", ""]
+- ["9SwiftGRPC13StreamSendingP", "_send"]
+- ["9SwiftGRPC13StreamSendingP", "close"]
+- !private ["9SwiftGRPC13StreamSendingP", "init"]
+- !private ["9SwiftGRPC13StreamSendingP", "init"]
+- !private ["9SwiftGRPC13StreamSendingP", "run"]
+- ["9SwiftGRPC13StreamSendingP", "send"]
+- !private ["SS", "init"]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "SK"
+- !private "Sb"
+- !private "s7CVarArgP"
+- "9SwiftGRPC10ClientCallP"
+- "9SwiftGRPC14ClientCallBaseC"
+- "9SwiftGRPC25ClientCallServerStreamingP"
+- "9SwiftGRPC29ClientCallServerStreamingBaseC"
+- !private "Sl"
+- !private "SL"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "8Dispatch0A4TimeV"
+- !private "SE"
+- !private "SQ"
+- !private "s5ErrorP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "9SwiftGRPC17HandleMethodErrorO"
+- !private "SH"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "Sm"
+- !private "ST"
+- "9SwiftGRPC13ServerSessionP"
+- "9SwiftGRPC17ServerSessionBaseC"
+- "9SwiftGRPC013ServerSessionC9StreamingP"
+- "9SwiftGRPC013ServerSessionC13StreamingBaseC"
+- "9SwiftGRPC13ServiceClientP"
+- "9SwiftGRPC17ServiceClientBaseC"
+- "9SwiftGRPC15ServiceProviderP"
+- "21ssigmaapiswiftsample3043Ssigmaapi_Pashirirest_V1_PashiriRestServiceD16GetOrderBookCallP"
+- "21ssigmaapiswiftsample3043Ssigmaapi_Pashirirest_V1_PashiriRestServiceD19GetOrderBookSessionP"
+- "21ssigmaapiswiftsample3043Ssigmaapi_Pashirirest_V1_PashiriRestServiceD8ProviderP"
+- "21ssigmaapiswiftsample3043Ssigmaapi_Pashirirest_V1_PashiriRestServicedG0P"
+- "21ssigmaapiswiftsample3043Ssigmaapi_Pashirirest_V1_PashiriRestServicedG6ClientC"
+- "21ssigmaapiswiftsample321Ssigmaapi_Type_MarketV"
+- "21ssigmaapiswiftsample324Ssigmaapi_Type_OrderBookV"
+- "9SwiftGRPC15StreamReceivingP"
+- "9SwiftGRPC13StreamSendingP"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Users/kaito/Documents/GitHub/ssigmaapiswiftsample3/Carthage/Build/iOS/SwiftGRPC.framework/Modules/SwiftGRPC.swiftmodule/arm64.swiftmodule"
+- "/Users/kaito/Documents/GitHub/ssigmaapiswiftsample3/Carthage/Build/iOS/SwiftProtobuf.framework/Modules/SwiftProtobuf.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/kaito/Documents/GitHub/ssigmaapiswiftsample3/Carthage/Build/iOS/CgRPC.framework/Headers/cgrpc.h"
+- "/Users/kaito/Documents/GitHub/ssigmaapiswiftsample3/Carthage/Build/iOS/CgRPC.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "1a2c4810098c1b6e43b24821933cce58"

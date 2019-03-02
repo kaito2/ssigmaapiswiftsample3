@@ -1,0 +1,13 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "4e576f4c0b5e1b4c516658ab88acdc29"
+build_time: [1551383772, 683395000]
+inputs:
+  "/Users/kaito/Documents/GitHub/ssigmaapiswiftsample3/Sources/type/market.pb.swift": [1551383112, 0]
+  "/Users/kaito/Documents/GitHub/ssigmaapiswiftsample3/Sources/markethub/v1/markethub.grpc.swift": [1551383112, 0]
+  "/Users/kaito/Documents/GitHub/ssigmaapiswiftsample3/Sources/markethub/v1/markethub.pb.swift": [1551383112, 0]
+  "/Users/kaito/Documents/GitHub/ssigmaapiswiftsample3/Sources/type/orderbook.pb.swift": [1551383112, 0]
+  "/Users/kaito/Documents/GitHub/ssigmaapiswiftsample3/Sources/pashirirest/v1/pashirirest.grpc.swift": [1551383112, 0]
+  "/Users/kaito/Documents/GitHub/ssigmaapiswiftsample3/Sources/pashirirest/v1/pashirirest.pb.swift": [1551383112, 0]
+  "/Users/kaito/Documents/GitHub/ssigmaapiswiftsample3/Sources/pashiriwebsocket/v1/pashiriwebsocket.grpc.swift": [1551383112, 0]
+  "/Users/kaito/Documents/GitHub/ssigmaapiswiftsample3/Sources/pashiriwebsocket/v1/pashiriwebsocket.pb.swift": [1551383112, 0]
+  "/Users/kaito/Documents/GitHub/ssigmaapiswiftsample3/Sources/type/trade.pb.swift": [1551383112, 0]

@@ -1,0 +1,514 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Ssigmaapi_Markethub_V1_MarketHubServiceV1GetTradesCall"
+- "Ssigmaapi_Markethub_V1_MarketHubServiceV1GetOrderBooksCall"
+- "Ssigmaapi_Markethub_V1_MarketHubServiceV1GetTradesAndOrderBooksCall"
+- "Ssigmaapi_Markethub_V1_MarketHubServiceV1Service"
+- "Ssigmaapi_Markethub_V1_MarketHubServiceV1ServiceClient"
+- "Ssigmaapi_Markethub_V1_MarketHubServiceV1Provider"
+- "Ssigmaapi_Markethub_V1_MarketHubServiceV1GetTradesSession"
+- "Ssigmaapi_Markethub_V1_MarketHubServiceV1GetOrderBooksSession"
+- "Ssigmaapi_Markethub_V1_MarketHubServiceV1GetTradesAndOrderBooksSession"
+provides-nominal:
+- "21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServiceD13GetTradesCallP"
+- "21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServiceD17GetOrderBooksCallP"
+- "21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServiceD26GetTradesAndOrderBooksCallP"
+- "21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServicedG0P"
+- "21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServicedG6ClientC"
+- "21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServiceD8ProviderP"
+- "21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServiceD16GetTradesSessionP"
+- "21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServiceD20GetOrderBooksSessionP"
+- "21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServiceD29GetTradesAndOrderBooksSessionP"
+provides-member:
+- ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServiceD13GetTradesCallP", ""]
+- ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServiceD17GetOrderBooksCallP", ""]
+- ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServiceD26GetTradesAndOrderBooksCallP", ""]
+- ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServicedG0P", ""]
+- ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServicedG6ClientC", ""]
+- ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServiceD8ProviderP", ""]
+- ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServiceD16GetTradesSessionP", ""]
+- ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServiceD20GetOrderBooksSessionP", ""]
+- ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServiceD29GetTradesAndOrderBooksSessionP", ""]
+- ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServiceD13GetTradesCallP", "receive"]
+- ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServiceD17GetOrderBooksCallP", "receive"]
+- ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServiceD26GetTradesAndOrderBooksCallP", "receive"]
+- ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServiceD8ProviderP", "serviceName"]
+- ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServiceD8ProviderP", "handleMethod"]
+- ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServiceD16GetTradesSessionP", "send"]
+- ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServiceD20GetOrderBooksSessionP", "send"]
+- ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServiceD29GetTradesAndOrderBooksSessionP", "send"]
+provides-dynamic-lookup:
+depends-top-level:
+- "CallResult"
+- !private "CastingPrecedence"
+- "ClientCallServerStreaming"
+- "ClientCallServerStreamingBase"
+- "DispatchTime"
+- "Error"
+- !private "HandleMethodError"
+- "Handler"
+- "ResultOrRPCError"
+- "ServerSessionServerStreaming"
+- "ServerSessionServerStreamingBase"
+- "ServerStatus"
+- "ServiceClient"
+- "ServiceClientBase"
+- "ServiceProvider"
+- "Ssigmaapi_Markethub_V1_GetOrderBooksRequest"
+- "Ssigmaapi_Markethub_V1_GetOrderBooksResponse"
+- "Ssigmaapi_Markethub_V1_GetTradesAndOrderBooksRequest"
+- "Ssigmaapi_Markethub_V1_GetTradesAndOrderBooksResponse"
+- "Ssigmaapi_Markethub_V1_GetTradesRequest"
+- "Ssigmaapi_Markethub_V1_GetTradesResponse"
+- "Ssigmaapi_Markethub_V1_MarketHubServiceV1GetOrderBooksCall"
+- !private "Ssigmaapi_Markethub_V1_MarketHubServiceV1GetOrderBooksCallBase"
+- "Ssigmaapi_Markethub_V1_MarketHubServiceV1GetOrderBooksSession"
+- !private "Ssigmaapi_Markethub_V1_MarketHubServiceV1GetOrderBooksSessionBase"
+- "Ssigmaapi_Markethub_V1_MarketHubServiceV1GetTradesAndOrderBooksCall"
+- !private "Ssigmaapi_Markethub_V1_MarketHubServiceV1GetTradesAndOrderBooksCallBase"
+- "Ssigmaapi_Markethub_V1_MarketHubServiceV1GetTradesAndOrderBooksSession"
+- !private "Ssigmaapi_Markethub_V1_MarketHubServiceV1GetTradesAndOrderBooksSessionBase"
+- "Ssigmaapi_Markethub_V1_MarketHubServiceV1GetTradesCall"
+- !private "Ssigmaapi_Markethub_V1_MarketHubServiceV1GetTradesCallBase"
+- "Ssigmaapi_Markethub_V1_MarketHubServiceV1GetTradesSession"
+- !private "Ssigmaapi_Markethub_V1_MarketHubServiceV1GetTradesSessionBase"
+- "Ssigmaapi_Markethub_V1_MarketHubServiceV1Provider"
+- "Ssigmaapi_Markethub_V1_MarketHubServiceV1Service"
+- "Ssigmaapi_Markethub_V1_MarketHubServiceV1ServiceClient"
+- "String"
+- !private "StringLiteralType"
+- "Void"
+- !private "~="
+depends-member:
+- !private ["SK", "init"]
+- !private ["SK", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- ["9SwiftGRPC10ClientCallP", "DispatchTime"]
+- ["9SwiftGRPC10ClientCallP", "ResultOrRPCError"]
+- ["9SwiftGRPC10ClientCallP", "Ssigmaapi_Markethub_V1_GetOrderBooksResponse"]
+- ["9SwiftGRPC10ClientCallP", "Ssigmaapi_Markethub_V1_GetTradesAndOrderBooksResponse"]
+- ["9SwiftGRPC10ClientCallP", "Ssigmaapi_Markethub_V1_GetTradesResponse"]
+- ["9SwiftGRPC10ClientCallP", "Void"]
+- !private ["9SwiftGRPC10ClientCallP", ""]
+- ["9SwiftGRPC10ClientCallP", "_receive"]
+- !private ["9SwiftGRPC10ClientCallP", "init"]
+- !private ["9SwiftGRPC10ClientCallP", "init"]
+- ["9SwiftGRPC10ClientCallP", "receive"]
+- !private ["9SwiftGRPC10ClientCallP", "start"]
+- ["9SwiftGRPC14ClientCallBaseC", "String"]
+- ["9SwiftGRPC14ClientCallBaseC", "_receive"]
+- ["9SwiftGRPC14ClientCallBaseC", "init"]
+- !private ["9SwiftGRPC14ClientCallBaseC", "init"]
+- ["9SwiftGRPC14ClientCallBaseC", "method"]
+- ["9SwiftGRPC14ClientCallBaseC", "receive"]
+- !private ["9SwiftGRPC14ClientCallBaseC", "start"]
+- ["9SwiftGRPC25ClientCallServerStreamingP", "DispatchTime"]
+- ["9SwiftGRPC25ClientCallServerStreamingP", "ResultOrRPCError"]
+- ["9SwiftGRPC25ClientCallServerStreamingP", "Ssigmaapi_Markethub_V1_GetOrderBooksResponse"]
+- ["9SwiftGRPC25ClientCallServerStreamingP", "Ssigmaapi_Markethub_V1_GetTradesAndOrderBooksResponse"]
+- ["9SwiftGRPC25ClientCallServerStreamingP", "Ssigmaapi_Markethub_V1_GetTradesResponse"]
+- ["9SwiftGRPC25ClientCallServerStreamingP", "Void"]
+- ["9SwiftGRPC25ClientCallServerStreamingP", ""]
+- ["9SwiftGRPC25ClientCallServerStreamingP", "_receive"]
+- !private ["9SwiftGRPC25ClientCallServerStreamingP", "init"]
+- !private ["9SwiftGRPC25ClientCallServerStreamingP", "init"]
+- ["9SwiftGRPC25ClientCallServerStreamingP", "receive"]
+- !private ["9SwiftGRPC25ClientCallServerStreamingP", "start"]
+- ["9SwiftGRPC29ClientCallServerStreamingBaseC", "String"]
+- !private ["9SwiftGRPC29ClientCallServerStreamingBaseC", ""]
+- ["9SwiftGRPC29ClientCallServerStreamingBaseC", "_receive"]
+- ["9SwiftGRPC29ClientCallServerStreamingBaseC", "init"]
+- !private ["9SwiftGRPC29ClientCallServerStreamingBaseC", "init"]
+- ["9SwiftGRPC29ClientCallServerStreamingBaseC", "method"]
+- ["9SwiftGRPC29ClientCallServerStreamingBaseC", "receive"]
+- !private ["9SwiftGRPC29ClientCallServerStreamingBaseC", "start"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["SL", "distantFuture"]
+- !private ["SL", "init"]
+- !private ["SL", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "init"]
+- !private ["Se", "init"]
+- !private ["8Dispatch0A4TimeV", "distantFuture"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "init"]
+- !private ["SE", "init"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "distantFuture"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "unknownMethod"]
+- !private ["s5ErrorP", "unknownMethod"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["9SwiftGRPC17HandleMethodErrorO", "unknownMethod"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "unknownMethod"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["Sm", "init"]
+- !private ["Sm", "init"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
+- ["9SwiftGRPC13ServerSessionP", "DispatchTime"]
+- ["9SwiftGRPC13ServerSessionP", "Error"]
+- ["9SwiftGRPC13ServerSessionP", "ServerStatus"]
+- ["9SwiftGRPC13ServerSessionP", "Ssigmaapi_Markethub_V1_GetOrderBooksResponse"]
+- ["9SwiftGRPC13ServerSessionP", "Ssigmaapi_Markethub_V1_GetTradesAndOrderBooksResponse"]
+- ["9SwiftGRPC13ServerSessionP", "Ssigmaapi_Markethub_V1_GetTradesResponse"]
+- ["9SwiftGRPC13ServerSessionP", "Void"]
+- !private ["9SwiftGRPC13ServerSessionP", ""]
+- ["9SwiftGRPC13ServerSessionP", "_send"]
+- ["9SwiftGRPC13ServerSessionP", "close"]
+- !private ["9SwiftGRPC13ServerSessionP", "init"]
+- !private ["9SwiftGRPC13ServerSessionP", "init"]
+- !private ["9SwiftGRPC13ServerSessionP", "run"]
+- ["9SwiftGRPC13ServerSessionP", "send"]
+- ["9SwiftGRPC17ServerSessionBaseC", "_send"]
+- ["9SwiftGRPC17ServerSessionBaseC", "close"]
+- !private ["9SwiftGRPC17ServerSessionBaseC", "init"]
+- !private ["9SwiftGRPC17ServerSessionBaseC", "run"]
+- ["9SwiftGRPC17ServerSessionBaseC", "send"]
+- ["9SwiftGRPC013ServerSessionC9StreamingP", "DispatchTime"]
+- ["9SwiftGRPC013ServerSessionC9StreamingP", "Error"]
+- ["9SwiftGRPC013ServerSessionC9StreamingP", "ServerStatus"]
+- ["9SwiftGRPC013ServerSessionC9StreamingP", "Ssigmaapi_Markethub_V1_GetOrderBooksResponse"]
+- ["9SwiftGRPC013ServerSessionC9StreamingP", "Ssigmaapi_Markethub_V1_GetTradesAndOrderBooksResponse"]
+- ["9SwiftGRPC013ServerSessionC9StreamingP", "Ssigmaapi_Markethub_V1_GetTradesResponse"]
+- ["9SwiftGRPC013ServerSessionC9StreamingP", "Void"]
+- ["9SwiftGRPC013ServerSessionC9StreamingP", ""]
+- ["9SwiftGRPC013ServerSessionC9StreamingP", "_send"]
+- ["9SwiftGRPC013ServerSessionC9StreamingP", "close"]
+- !private ["9SwiftGRPC013ServerSessionC9StreamingP", "init"]
+- !private ["9SwiftGRPC013ServerSessionC9StreamingP", "init"]
+- !private ["9SwiftGRPC013ServerSessionC9StreamingP", "run"]
+- ["9SwiftGRPC013ServerSessionC9StreamingP", "send"]
+- !private ["9SwiftGRPC013ServerSessionC13StreamingBaseC", ""]
+- ["9SwiftGRPC013ServerSessionC13StreamingBaseC", "_send"]
+- ["9SwiftGRPC013ServerSessionC13StreamingBaseC", "close"]
+- ["9SwiftGRPC013ServerSessionC13StreamingBaseC", "init"]
+- !private ["9SwiftGRPC013ServerSessionC13StreamingBaseC", "init"]
+- !private ["9SwiftGRPC013ServerSessionC13StreamingBaseC", "run"]
+- ["9SwiftGRPC013ServerSessionC13StreamingBaseC", "send"]
+- ["9SwiftGRPC13ServiceClientP", "CallResult"]
+- ["9SwiftGRPC13ServiceClientP", "Ssigmaapi_Markethub_V1_GetOrderBooksRequest"]
+- ["9SwiftGRPC13ServiceClientP", "Ssigmaapi_Markethub_V1_GetTradesAndOrderBooksRequest"]
+- ["9SwiftGRPC13ServiceClientP", "Ssigmaapi_Markethub_V1_GetTradesRequest"]
+- ["9SwiftGRPC13ServiceClientP", "Ssigmaapi_Markethub_V1_MarketHubServiceV1GetOrderBooksCall"]
+- !private ["9SwiftGRPC13ServiceClientP", "Ssigmaapi_Markethub_V1_MarketHubServiceV1GetOrderBooksCallBase"]
+- ["9SwiftGRPC13ServiceClientP", "Ssigmaapi_Markethub_V1_MarketHubServiceV1GetTradesAndOrderBooksCall"]
+- !private ["9SwiftGRPC13ServiceClientP", "Ssigmaapi_Markethub_V1_MarketHubServiceV1GetTradesAndOrderBooksCallBase"]
+- ["9SwiftGRPC13ServiceClientP", "Ssigmaapi_Markethub_V1_MarketHubServiceV1GetTradesCall"]
+- !private ["9SwiftGRPC13ServiceClientP", "Ssigmaapi_Markethub_V1_MarketHubServiceV1GetTradesCallBase"]
+- ["9SwiftGRPC13ServiceClientP", "Void"]
+- ["9SwiftGRPC13ServiceClientP", ""]
+- !private ["9SwiftGRPC13ServiceClientP", "channel"]
+- ["9SwiftGRPC13ServiceClientP", "getOrderBooks"]
+- ["9SwiftGRPC13ServiceClientP", "getTrades"]
+- ["9SwiftGRPC13ServiceClientP", "getTradesAndOrderBooks"]
+- !private ["9SwiftGRPC13ServiceClientP", "init"]
+- !private ["9SwiftGRPC13ServiceClientP", "init"]
+- !private ["9SwiftGRPC13ServiceClientP", "metadata"]
+- ["9SwiftGRPC17ServiceClientBaseC", "CallResult"]
+- ["9SwiftGRPC17ServiceClientBaseC", "Ssigmaapi_Markethub_V1_GetOrderBooksRequest"]
+- ["9SwiftGRPC17ServiceClientBaseC", "Ssigmaapi_Markethub_V1_GetTradesAndOrderBooksRequest"]
+- ["9SwiftGRPC17ServiceClientBaseC", "Ssigmaapi_Markethub_V1_GetTradesRequest"]
+- ["9SwiftGRPC17ServiceClientBaseC", "Ssigmaapi_Markethub_V1_MarketHubServiceV1GetOrderBooksCall"]
+- !private ["9SwiftGRPC17ServiceClientBaseC", "Ssigmaapi_Markethub_V1_MarketHubServiceV1GetOrderBooksCallBase"]
+- ["9SwiftGRPC17ServiceClientBaseC", "Ssigmaapi_Markethub_V1_MarketHubServiceV1GetTradesAndOrderBooksCall"]
+- !private ["9SwiftGRPC17ServiceClientBaseC", "Ssigmaapi_Markethub_V1_MarketHubServiceV1GetTradesAndOrderBooksCallBase"]
+- ["9SwiftGRPC17ServiceClientBaseC", "Ssigmaapi_Markethub_V1_MarketHubServiceV1GetTradesCall"]
+- !private ["9SwiftGRPC17ServiceClientBaseC", "Ssigmaapi_Markethub_V1_MarketHubServiceV1GetTradesCallBase"]
+- ["9SwiftGRPC17ServiceClientBaseC", "Void"]
+- ["9SwiftGRPC17ServiceClientBaseC", ""]
+- !private ["9SwiftGRPC17ServiceClientBaseC", "channel"]
+- ["9SwiftGRPC17ServiceClientBaseC", "getOrderBooks"]
+- ["9SwiftGRPC17ServiceClientBaseC", "getTrades"]
+- ["9SwiftGRPC17ServiceClientBaseC", "getTradesAndOrderBooks"]
+- ["9SwiftGRPC17ServiceClientBaseC", "init"]
+- !private ["9SwiftGRPC17ServiceClientBaseC", "init"]
+- !private ["9SwiftGRPC17ServiceClientBaseC", "metadata"]
+- !private ["9SwiftGRPC15ServiceProviderP", "HandleMethodError"]
+- ["9SwiftGRPC15ServiceProviderP", "Handler"]
+- ["9SwiftGRPC15ServiceProviderP", "ServerStatus"]
+- ["9SwiftGRPC15ServiceProviderP", "Ssigmaapi_Markethub_V1_GetOrderBooksRequest"]
+- ["9SwiftGRPC15ServiceProviderP", "Ssigmaapi_Markethub_V1_GetTradesAndOrderBooksRequest"]
+- ["9SwiftGRPC15ServiceProviderP", "Ssigmaapi_Markethub_V1_GetTradesRequest"]
+- ["9SwiftGRPC15ServiceProviderP", "Ssigmaapi_Markethub_V1_MarketHubServiceV1GetOrderBooksSession"]
+- !private ["9SwiftGRPC15ServiceProviderP", "Ssigmaapi_Markethub_V1_MarketHubServiceV1GetOrderBooksSessionBase"]
+- ["9SwiftGRPC15ServiceProviderP", "Ssigmaapi_Markethub_V1_MarketHubServiceV1GetTradesAndOrderBooksSession"]
+- !private ["9SwiftGRPC15ServiceProviderP", "Ssigmaapi_Markethub_V1_MarketHubServiceV1GetTradesAndOrderBooksSessionBase"]
+- ["9SwiftGRPC15ServiceProviderP", "Ssigmaapi_Markethub_V1_MarketHubServiceV1GetTradesSession"]
+- !private ["9SwiftGRPC15ServiceProviderP", "Ssigmaapi_Markethub_V1_MarketHubServiceV1GetTradesSessionBase"]
+- ["9SwiftGRPC15ServiceProviderP", "String"]
+- ["9SwiftGRPC15ServiceProviderP", ""]
+- !private ["9SwiftGRPC15ServiceProviderP", "getOrderBooks"]
+- !private ["9SwiftGRPC15ServiceProviderP", "getTrades"]
+- !private ["9SwiftGRPC15ServiceProviderP", "getTradesAndOrderBooks"]
+- ["21ssigmaapiswiftsample343Ssigmaapi_Markethub_V1_GetOrderBooksRequestV", "deinit"]
+- ["21ssigmaapiswiftsample344Ssigmaapi_Markethub_V1_GetOrderBooksResponseV", "deinit"]
+- ["21ssigmaapiswiftsample352Ssigmaapi_Markethub_V1_GetTradesAndOrderBooksRequestV", "deinit"]
+- ["21ssigmaapiswiftsample353Ssigmaapi_Markethub_V1_GetTradesAndOrderBooksResponseV", "deinit"]
+- ["21ssigmaapiswiftsample339Ssigmaapi_Markethub_V1_GetTradesRequestV", "deinit"]
+- ["21ssigmaapiswiftsample340Ssigmaapi_Markethub_V1_GetTradesResponseV", "deinit"]
+- ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServiceD17GetOrderBooksCallP", "DispatchTime"]
+- ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServiceD17GetOrderBooksCallP", "ResultOrRPCError"]
+- ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServiceD17GetOrderBooksCallP", "Ssigmaapi_Markethub_V1_GetOrderBooksResponse"]
+- ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServiceD17GetOrderBooksCallP", "Void"]
+- !private ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServiceD17GetOrderBooksCallP", ""]
+- ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServiceD17GetOrderBooksCallP", "_receive"]
+- !private ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServiceD17GetOrderBooksCallP", "init"]
+- ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServiceD17GetOrderBooksCallP", "receive"]
+- !private ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServiceD17GetOrderBooksCallP", "start"]
+- ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServiceD20GetOrderBooksSessionP", "DispatchTime"]
+- ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServiceD20GetOrderBooksSessionP", "Error"]
+- ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServiceD20GetOrderBooksSessionP", "ServerStatus"]
+- ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServiceD20GetOrderBooksSessionP", "Ssigmaapi_Markethub_V1_GetOrderBooksResponse"]
+- ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServiceD20GetOrderBooksSessionP", "Void"]
+- !private ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServiceD20GetOrderBooksSessionP", ""]
+- ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServiceD20GetOrderBooksSessionP", "_send"]
+- ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServiceD20GetOrderBooksSessionP", "close"]
+- !private ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServiceD20GetOrderBooksSessionP", "init"]
+- !private ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServiceD20GetOrderBooksSessionP", "run"]
+- ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServiceD20GetOrderBooksSessionP", "send"]
+- ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServiceD26GetTradesAndOrderBooksCallP", "DispatchTime"]
+- ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServiceD26GetTradesAndOrderBooksCallP", "ResultOrRPCError"]
+- ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServiceD26GetTradesAndOrderBooksCallP", "Ssigmaapi_Markethub_V1_GetTradesAndOrderBooksResponse"]
+- ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServiceD26GetTradesAndOrderBooksCallP", "Void"]
+- !private ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServiceD26GetTradesAndOrderBooksCallP", ""]
+- ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServiceD26GetTradesAndOrderBooksCallP", "_receive"]
+- !private ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServiceD26GetTradesAndOrderBooksCallP", "init"]
+- ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServiceD26GetTradesAndOrderBooksCallP", "receive"]
+- !private ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServiceD26GetTradesAndOrderBooksCallP", "start"]
+- ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServiceD29GetTradesAndOrderBooksSessionP", "DispatchTime"]
+- ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServiceD29GetTradesAndOrderBooksSessionP", "Error"]
+- ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServiceD29GetTradesAndOrderBooksSessionP", "ServerStatus"]
+- ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServiceD29GetTradesAndOrderBooksSessionP", "Ssigmaapi_Markethub_V1_GetTradesAndOrderBooksResponse"]
+- ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServiceD29GetTradesAndOrderBooksSessionP", "Void"]
+- !private ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServiceD29GetTradesAndOrderBooksSessionP", ""]
+- ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServiceD29GetTradesAndOrderBooksSessionP", "_send"]
+- ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServiceD29GetTradesAndOrderBooksSessionP", "close"]
+- !private ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServiceD29GetTradesAndOrderBooksSessionP", "init"]
+- !private ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServiceD29GetTradesAndOrderBooksSessionP", "run"]
+- ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServiceD29GetTradesAndOrderBooksSessionP", "send"]
+- ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServiceD13GetTradesCallP", "DispatchTime"]
+- ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServiceD13GetTradesCallP", "ResultOrRPCError"]
+- ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServiceD13GetTradesCallP", "Ssigmaapi_Markethub_V1_GetTradesResponse"]
+- ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServiceD13GetTradesCallP", "Void"]
+- !private ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServiceD13GetTradesCallP", ""]
+- ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServiceD13GetTradesCallP", "_receive"]
+- !private ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServiceD13GetTradesCallP", "init"]
+- ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServiceD13GetTradesCallP", "receive"]
+- !private ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServiceD13GetTradesCallP", "start"]
+- ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServiceD16GetTradesSessionP", "DispatchTime"]
+- ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServiceD16GetTradesSessionP", "Error"]
+- ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServiceD16GetTradesSessionP", "ServerStatus"]
+- ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServiceD16GetTradesSessionP", "Ssigmaapi_Markethub_V1_GetTradesResponse"]
+- ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServiceD16GetTradesSessionP", "Void"]
+- !private ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServiceD16GetTradesSessionP", ""]
+- ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServiceD16GetTradesSessionP", "_send"]
+- ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServiceD16GetTradesSessionP", "close"]
+- !private ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServiceD16GetTradesSessionP", "init"]
+- !private ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServiceD16GetTradesSessionP", "run"]
+- ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServiceD16GetTradesSessionP", "send"]
+- !private ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServiceD8ProviderP", "HandleMethodError"]
+- ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServiceD8ProviderP", "Handler"]
+- ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServiceD8ProviderP", "ServerStatus"]
+- ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServiceD8ProviderP", "Ssigmaapi_Markethub_V1_GetOrderBooksRequest"]
+- ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServiceD8ProviderP", "Ssigmaapi_Markethub_V1_GetTradesAndOrderBooksRequest"]
+- ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServiceD8ProviderP", "Ssigmaapi_Markethub_V1_GetTradesRequest"]
+- ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServiceD8ProviderP", "Ssigmaapi_Markethub_V1_MarketHubServiceV1GetOrderBooksSession"]
+- !private ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServiceD8ProviderP", "Ssigmaapi_Markethub_V1_MarketHubServiceV1GetOrderBooksSessionBase"]
+- ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServiceD8ProviderP", "Ssigmaapi_Markethub_V1_MarketHubServiceV1GetTradesAndOrderBooksSession"]
+- !private ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServiceD8ProviderP", "Ssigmaapi_Markethub_V1_MarketHubServiceV1GetTradesAndOrderBooksSessionBase"]
+- ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServiceD8ProviderP", "Ssigmaapi_Markethub_V1_MarketHubServiceV1GetTradesSession"]
+- !private ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServiceD8ProviderP", "Ssigmaapi_Markethub_V1_MarketHubServiceV1GetTradesSessionBase"]
+- ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServiceD8ProviderP", "String"]
+- ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServiceD8ProviderP", "getOrderBooks"]
+- ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServiceD8ProviderP", "getTrades"]
+- ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServiceD8ProviderP", "getTradesAndOrderBooks"]
+- ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServiceD8ProviderP", "handleMethod"]
+- ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServiceD8ProviderP", "serviceName"]
+- ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServicedG0P", "CallResult"]
+- ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServicedG0P", "Ssigmaapi_Markethub_V1_GetOrderBooksRequest"]
+- ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServicedG0P", "Ssigmaapi_Markethub_V1_GetTradesAndOrderBooksRequest"]
+- ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServicedG0P", "Ssigmaapi_Markethub_V1_GetTradesRequest"]
+- ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServicedG0P", "Ssigmaapi_Markethub_V1_MarketHubServiceV1GetOrderBooksCall"]
+- !private ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServicedG0P", "Ssigmaapi_Markethub_V1_MarketHubServiceV1GetOrderBooksCallBase"]
+- ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServicedG0P", "Ssigmaapi_Markethub_V1_MarketHubServiceV1GetTradesAndOrderBooksCall"]
+- !private ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServicedG0P", "Ssigmaapi_Markethub_V1_MarketHubServiceV1GetTradesAndOrderBooksCallBase"]
+- ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServicedG0P", "Ssigmaapi_Markethub_V1_MarketHubServiceV1GetTradesCall"]
+- !private ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServicedG0P", "Ssigmaapi_Markethub_V1_MarketHubServiceV1GetTradesCallBase"]
+- ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServicedG0P", "Void"]
+- ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServicedG0P", ""]
+- !private ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServicedG0P", "channel"]
+- ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServicedG0P", "getOrderBooks"]
+- ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServicedG0P", "getTrades"]
+- ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServicedG0P", "getTradesAndOrderBooks"]
+- !private ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServicedG0P", "metadata"]
+- ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServicedG6ClientC", "CallResult"]
+- ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServicedG6ClientC", "Ssigmaapi_Markethub_V1_GetOrderBooksRequest"]
+- ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServicedG6ClientC", "Ssigmaapi_Markethub_V1_GetTradesAndOrderBooksRequest"]
+- ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServicedG6ClientC", "Ssigmaapi_Markethub_V1_GetTradesRequest"]
+- ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServicedG6ClientC", "Ssigmaapi_Markethub_V1_MarketHubServiceV1GetOrderBooksCall"]
+- !private ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServicedG6ClientC", "Ssigmaapi_Markethub_V1_MarketHubServiceV1GetOrderBooksCallBase"]
+- ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServicedG6ClientC", "Ssigmaapi_Markethub_V1_MarketHubServiceV1GetTradesAndOrderBooksCall"]
+- !private ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServicedG6ClientC", "Ssigmaapi_Markethub_V1_MarketHubServiceV1GetTradesAndOrderBooksCallBase"]
+- ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServicedG6ClientC", "Ssigmaapi_Markethub_V1_MarketHubServiceV1GetTradesCall"]
+- !private ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServicedG6ClientC", "Ssigmaapi_Markethub_V1_MarketHubServiceV1GetTradesCallBase"]
+- ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServicedG6ClientC", "Void"]
+- !private ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServicedG6ClientC", "channel"]
+- ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServicedG6ClientC", "deinit"]
+- ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServicedG6ClientC", "getOrderBooks"]
+- ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServicedG6ClientC", "getTrades"]
+- ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServicedG6ClientC", "getTradesAndOrderBooks"]
+- ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServicedG6ClientC", "init"]
+- !private ["21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServicedG6ClientC", "metadata"]
+- !private ["9SwiftGRPC15StreamReceivingP", ""]
+- ["9SwiftGRPC15StreamReceivingP", "_receive"]
+- !private ["9SwiftGRPC15StreamReceivingP", "init"]
+- !private ["9SwiftGRPC15StreamReceivingP", "init"]
+- ["9SwiftGRPC15StreamReceivingP", "receive"]
+- !private ["9SwiftGRPC15StreamReceivingP", "start"]
+- !private ["9SwiftGRPC13StreamSendingP", ""]
+- ["9SwiftGRPC13StreamSendingP", "_send"]
+- ["9SwiftGRPC13StreamSendingP", "close"]
+- !private ["9SwiftGRPC13StreamSendingP", "init"]
+- !private ["9SwiftGRPC13StreamSendingP", "init"]
+- !private ["9SwiftGRPC13StreamSendingP", "run"]
+- ["9SwiftGRPC13StreamSendingP", "send"]
+- !private ["SS", "init"]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "SK"
+- !private "Sb"
+- !private "s7CVarArgP"
+- "9SwiftGRPC10ClientCallP"
+- "9SwiftGRPC14ClientCallBaseC"
+- "9SwiftGRPC25ClientCallServerStreamingP"
+- "9SwiftGRPC29ClientCallServerStreamingBaseC"
+- !private "Sl"
+- !private "SL"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "8Dispatch0A4TimeV"
+- !private "SE"
+- !private "SQ"
+- !private "s5ErrorP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "9SwiftGRPC17HandleMethodErrorO"
+- !private "SH"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "Sm"
+- !private "ST"
+- "9SwiftGRPC13ServerSessionP"
+- "9SwiftGRPC17ServerSessionBaseC"
+- "9SwiftGRPC013ServerSessionC9StreamingP"
+- "9SwiftGRPC013ServerSessionC13StreamingBaseC"
+- "9SwiftGRPC13ServiceClientP"
+- "9SwiftGRPC17ServiceClientBaseC"
+- "9SwiftGRPC15ServiceProviderP"
+- "21ssigmaapiswiftsample343Ssigmaapi_Markethub_V1_GetOrderBooksRequestV"
+- "21ssigmaapiswiftsample344Ssigmaapi_Markethub_V1_GetOrderBooksResponseV"
+- "21ssigmaapiswiftsample352Ssigmaapi_Markethub_V1_GetTradesAndOrderBooksRequestV"
+- "21ssigmaapiswiftsample353Ssigmaapi_Markethub_V1_GetTradesAndOrderBooksResponseV"
+- "21ssigmaapiswiftsample339Ssigmaapi_Markethub_V1_GetTradesRequestV"
+- "21ssigmaapiswiftsample340Ssigmaapi_Markethub_V1_GetTradesResponseV"
+- "21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServiceD17GetOrderBooksCallP"
+- "21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServiceD20GetOrderBooksSessionP"
+- "21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServiceD26GetTradesAndOrderBooksCallP"
+- "21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServiceD29GetTradesAndOrderBooksSessionP"
+- "21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServiceD13GetTradesCallP"
+- "21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServiceD16GetTradesSessionP"
+- "21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServiceD8ProviderP"
+- "21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServicedG0P"
+- "21ssigmaapiswiftsample3039Ssigmaapi_Markethub_V1_MarketHubServicedG6ClientC"
+- "9SwiftGRPC15StreamReceivingP"
+- "9SwiftGRPC13StreamSendingP"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Users/kaito/Documents/GitHub/ssigmaapiswiftsample3/Carthage/Build/iOS/SwiftGRPC.framework/Modules/SwiftGRPC.swiftmodule/arm64.swiftmodule"
+- "/Users/kaito/Documents/GitHub/ssigmaapiswiftsample3/Carthage/Build/iOS/SwiftProtobuf.framework/Modules/SwiftProtobuf.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/kaito/Documents/GitHub/ssigmaapiswiftsample3/Carthage/Build/iOS/CgRPC.framework/Headers/cgrpc.h"
+- "/Users/kaito/Documents/GitHub/ssigmaapiswiftsample3/Carthage/Build/iOS/CgRPC.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "0845a07e36a64707ad7594a9833a4b30"

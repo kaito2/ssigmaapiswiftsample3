@@ -1,0 +1,455 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Ssigmaapi_Type_BidAsk"
+- "Ssigmaapi_Type_OrderBook"
+- "=="
+- "=="
+provides-nominal:
+- "21ssigmaapiswiftsample321Ssigmaapi_Type_BidAskV"
+- "21ssigmaapiswiftsample324Ssigmaapi_Type_OrderBookV"
+provides-member:
+- ["21ssigmaapiswiftsample321Ssigmaapi_Type_BidAskV", ""]
+- ["21ssigmaapiswiftsample324Ssigmaapi_Type_OrderBookV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "!="
+- "+"
+- "=="
+- "Bool"
+- !private "BooleanLiteralType"
+- "Dictionary"
+- "Double"
+- "FloatLiteralType"
+- "Int64"
+- "IntegerLiteralType"
+- "Ssigmaapi_Type_BidAsk"
+- "Ssigmaapi_Type_OrderBook"
+- "String"
+- "StringLiteralType"
+- "SwiftProtobuf"
+- !private "_GeneratedWithProtocGenSwiftVersion"
+- "_protobuf_package"
+- !private "~="
+depends-member:
+- !private ["Sa", "isEmpty"]
+- !private ["s13ArrayProtocolP", "isEmpty"]
+- ["SK", "init"]
+- ["SK", "init"]
+- !private ["SK", "isEmpty"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isEmpty"]
+- ["Sl", "init"]
+- ["Sl", "init"]
+- !private ["Sl", "isEmpty"]
+- ["SL", "init"]
+- ["SL", "init"]
+- !private ["SL", "isEmpty"]
+- ["s28CustomDebugStringConvertibleP", "String"]
+- ["s28CustomDebugStringConvertibleP", "SwiftProtobuf"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "_protobuf_generated_isEqualTo"]
+- ["s28CustomDebugStringConvertibleP", "_protobuf_nameMap"]
+- ["s28CustomDebugStringConvertibleP", "_protobuf_package"]
+- !private ["s28CustomDebugStringConvertibleP", "amount"]
+- !private ["s28CustomDebugStringConvertibleP", "asks"]
+- !private ["s28CustomDebugStringConvertibleP", "base"]
+- !private ["s28CustomDebugStringConvertibleP", "bids"]
+- ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- ["s28CustomDebugStringConvertibleP", "decodeMessage"]
+- !private ["s28CustomDebugStringConvertibleP", "exchange"]
+- ["s28CustomDebugStringConvertibleP", "hash"]
+- ["s28CustomDebugStringConvertibleP", "hashValue"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isEmpty"]
+- ["s28CustomDebugStringConvertibleP", "isEqualTo"]
+- ["s28CustomDebugStringConvertibleP", "isInitialized"]
+- !private ["s28CustomDebugStringConvertibleP", "price"]
+- ["s28CustomDebugStringConvertibleP", "protoMessageName"]
+- !private ["s28CustomDebugStringConvertibleP", "quote"]
+- !private ["s28CustomDebugStringConvertibleP", "symbol"]
+- !private ["s28CustomDebugStringConvertibleP", "timestamp"]
+- ["s28CustomDebugStringConvertibleP", "traverse"]
+- ["s28CustomDebugStringConvertibleP", "unknownFields"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "isEmpty"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- ["s17CustomReflectableP", "init"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "isEmpty"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isEmpty"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- ["Se", "init"]
+- ["Se", "init"]
+- !private ["Se", "isEmpty"]
+- !private ["13SwiftProtobuf7DecoderP", "decodeRepeatedMessageField"]
+- !private ["13SwiftProtobuf7DecoderP", "decodeSingularDoubleField"]
+- !private ["13SwiftProtobuf7DecoderP", "decodeSingularInt64Field"]
+- !private ["13SwiftProtobuf7DecoderP", "decodeSingularStringField"]
+- !private ["13SwiftProtobuf7DecoderP", "nextFieldNumber"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- ["SE", "init"]
+- ["SE", "init"]
+- !private ["SE", "isEmpty"]
+- ["SQ", "String"]
+- ["SQ", "SwiftProtobuf"]
+- ["SQ", ""]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- ["SQ", "_protobuf_generated_isEqualTo"]
+- ["SQ", "_protobuf_nameMap"]
+- ["SQ", "_protobuf_package"]
+- !private ["SQ", "amount"]
+- !private ["SQ", "asks"]
+- !private ["SQ", "base"]
+- !private ["SQ", "bids"]
+- ["SQ", "debugDescription"]
+- ["SQ", "decodeMessage"]
+- !private ["SQ", "exchange"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- ["SQ", "init"]
+- !private ["SQ", "isEmpty"]
+- ["SQ", "isEqualTo"]
+- ["SQ", "isInitialized"]
+- !private ["SQ", "price"]
+- ["SQ", "protoMessageName"]
+- !private ["SQ", "quote"]
+- !private ["SQ", "symbol"]
+- !private ["SQ", "timestamp"]
+- ["SQ", "traverse"]
+- ["SQ", "unknownFields"]
+- !private ["s25ExpressibleByArrayLiteralP", "isEmpty"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "isEmpty"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "isEmpty"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "isEmpty"]
+- ["SH", "String"]
+- ["SH", "SwiftProtobuf"]
+- ["SH", ""]
+- !private ["SH", "_getBuiltinLogicValue"]
+- ["SH", "_protobuf_generated_isEqualTo"]
+- ["SH", "_protobuf_nameMap"]
+- ["SH", "_protobuf_package"]
+- !private ["SH", "amount"]
+- !private ["SH", "asks"]
+- !private ["SH", "base"]
+- !private ["SH", "bids"]
+- ["SH", "debugDescription"]
+- ["SH", "decodeMessage"]
+- !private ["SH", "exchange"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- ["SH", "init"]
+- !private ["SH", "isEmpty"]
+- ["SH", "isEqualTo"]
+- ["SH", "isInitialized"]
+- !private ["SH", "price"]
+- ["SH", "protoMessageName"]
+- !private ["SH", "quote"]
+- !private ["SH", "symbol"]
+- !private ["SH", "timestamp"]
+- ["SH", "traverse"]
+- ["SH", "unknownFields"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "isEmpty"]
+- ["13SwiftProtobuf7MessageP", "String"]
+- ["13SwiftProtobuf7MessageP", "SwiftProtobuf"]
+- ["13SwiftProtobuf7MessageP", ""]
+- ["13SwiftProtobuf7MessageP", "_protobuf_generated_isEqualTo"]
+- ["13SwiftProtobuf7MessageP", "_protobuf_nameMap"]
+- ["13SwiftProtobuf7MessageP", "_protobuf_package"]
+- !private ["13SwiftProtobuf7MessageP", "amount"]
+- !private ["13SwiftProtobuf7MessageP", "asks"]
+- !private ["13SwiftProtobuf7MessageP", "base"]
+- !private ["13SwiftProtobuf7MessageP", "bids"]
+- ["13SwiftProtobuf7MessageP", "debugDescription"]
+- ["13SwiftProtobuf7MessageP", "decodeMessage"]
+- !private ["13SwiftProtobuf7MessageP", "exchange"]
+- ["13SwiftProtobuf7MessageP", "hash"]
+- ["13SwiftProtobuf7MessageP", "hashValue"]
+- ["13SwiftProtobuf7MessageP", "init"]
+- ["13SwiftProtobuf7MessageP", "isEqualTo"]
+- ["13SwiftProtobuf7MessageP", "isInitialized"]
+- !private ["13SwiftProtobuf7MessageP", "price"]
+- ["13SwiftProtobuf7MessageP", "protoMessageName"]
+- !private ["13SwiftProtobuf7MessageP", "quote"]
+- !private ["13SwiftProtobuf7MessageP", "symbol"]
+- !private ["13SwiftProtobuf7MessageP", "timestamp"]
+- ["13SwiftProtobuf7MessageP", "traverse"]
+- ["13SwiftProtobuf7MessageP", "unknownFields"]
+- ["s10MirrorPathP", "init"]
+- ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "isEmpty"]
+- !private ["SM", "isEmpty"]
+- !private ["So8NSCodingP", "isEmpty"]
+- !private ["So9NSCopyingP", "isEmpty"]
+- !private ["So21NSItemProviderReadingP", "isEmpty"]
+- !private ["So21NSItemProviderWritingP", "isEmpty"]
+- !private ["So16NSMutableCopyingP", "isEmpty"]
+- !private ["So8NSObjectC", "isEmpty"]
+- !private ["So8NSObjectP", "isEmpty"]
+- !private ["So14NSSecureCodingP", "isEmpty"]
+- !private ["So8NSStringC", "isEmpty"]
+- ["13SwiftProtobuf8_NameMapV0C11DescriptionO", "same"]
+- ["13SwiftProtobuf0B15APIVersionCheckP", "Version"]
+- !private ["13SwiftProtobuf0B15APIVersionCheckP", ""]
+- ["13SwiftProtobuf0B12APIVersion_2P", ""]
+- !private ["Sk", "isEmpty"]
+- ["Sm", "init"]
+- ["Sm", "init"]
+- !private ["Sm", "isEmpty"]
+- ["ST", "init"]
+- ["ST", "init"]
+- !private ["ST", "isEmpty"]
+- ["21ssigmaapiswiftsample321Ssigmaapi_Type_BidAskV", "=="]
+- ["21ssigmaapiswiftsample321Ssigmaapi_Type_BidAskV", "Bool"]
+- ["21ssigmaapiswiftsample321Ssigmaapi_Type_BidAskV", "Double"]
+- ["21ssigmaapiswiftsample321Ssigmaapi_Type_BidAskV", "Ssigmaapi_Type_BidAsk"]
+- ["21ssigmaapiswiftsample321Ssigmaapi_Type_BidAskV", "String"]
+- ["21ssigmaapiswiftsample321Ssigmaapi_Type_BidAskV", "SwiftProtobuf"]
+- ["21ssigmaapiswiftsample321Ssigmaapi_Type_BidAskV", "_protobuf_generated_isEqualTo"]
+- ["21ssigmaapiswiftsample321Ssigmaapi_Type_BidAskV", "_protobuf_nameMap"]
+- ["21ssigmaapiswiftsample321Ssigmaapi_Type_BidAskV", "_protobuf_package"]
+- ["21ssigmaapiswiftsample321Ssigmaapi_Type_BidAskV", "amount"]
+- ["21ssigmaapiswiftsample321Ssigmaapi_Type_BidAskV", "debugDescription"]
+- ["21ssigmaapiswiftsample321Ssigmaapi_Type_BidAskV", "decodeMessage"]
+- ["21ssigmaapiswiftsample321Ssigmaapi_Type_BidAskV", "deinit"]
+- ["21ssigmaapiswiftsample321Ssigmaapi_Type_BidAskV", "hash"]
+- ["21ssigmaapiswiftsample321Ssigmaapi_Type_BidAskV", "hashValue"]
+- ["21ssigmaapiswiftsample321Ssigmaapi_Type_BidAskV", "init"]
+- ["21ssigmaapiswiftsample321Ssigmaapi_Type_BidAskV", "isEqualTo"]
+- ["21ssigmaapiswiftsample321Ssigmaapi_Type_BidAskV", "isInitialized"]
+- ["21ssigmaapiswiftsample321Ssigmaapi_Type_BidAskV", "price"]
+- ["21ssigmaapiswiftsample321Ssigmaapi_Type_BidAskV", "protoMessageName"]
+- ["21ssigmaapiswiftsample321Ssigmaapi_Type_BidAskV", "traverse"]
+- ["21ssigmaapiswiftsample321Ssigmaapi_Type_BidAskV", "unknownFields"]
+- ["21ssigmaapiswiftsample324Ssigmaapi_Type_OrderBookV", "=="]
+- ["21ssigmaapiswiftsample324Ssigmaapi_Type_OrderBookV", "Bool"]
+- ["21ssigmaapiswiftsample324Ssigmaapi_Type_OrderBookV", "Int64"]
+- ["21ssigmaapiswiftsample324Ssigmaapi_Type_OrderBookV", "Ssigmaapi_Type_BidAsk"]
+- ["21ssigmaapiswiftsample324Ssigmaapi_Type_OrderBookV", "Ssigmaapi_Type_OrderBook"]
+- ["21ssigmaapiswiftsample324Ssigmaapi_Type_OrderBookV", "String"]
+- ["21ssigmaapiswiftsample324Ssigmaapi_Type_OrderBookV", "SwiftProtobuf"]
+- ["21ssigmaapiswiftsample324Ssigmaapi_Type_OrderBookV", "_protobuf_generated_isEqualTo"]
+- ["21ssigmaapiswiftsample324Ssigmaapi_Type_OrderBookV", "_protobuf_nameMap"]
+- ["21ssigmaapiswiftsample324Ssigmaapi_Type_OrderBookV", "_protobuf_package"]
+- ["21ssigmaapiswiftsample324Ssigmaapi_Type_OrderBookV", "asks"]
+- ["21ssigmaapiswiftsample324Ssigmaapi_Type_OrderBookV", "base"]
+- ["21ssigmaapiswiftsample324Ssigmaapi_Type_OrderBookV", "bids"]
+- ["21ssigmaapiswiftsample324Ssigmaapi_Type_OrderBookV", "debugDescription"]
+- ["21ssigmaapiswiftsample324Ssigmaapi_Type_OrderBookV", "decodeMessage"]
+- ["21ssigmaapiswiftsample324Ssigmaapi_Type_OrderBookV", "deinit"]
+- ["21ssigmaapiswiftsample324Ssigmaapi_Type_OrderBookV", "exchange"]
+- ["21ssigmaapiswiftsample324Ssigmaapi_Type_OrderBookV", "hash"]
+- ["21ssigmaapiswiftsample324Ssigmaapi_Type_OrderBookV", "hashValue"]
+- ["21ssigmaapiswiftsample324Ssigmaapi_Type_OrderBookV", "init"]
+- ["21ssigmaapiswiftsample324Ssigmaapi_Type_OrderBookV", "isEqualTo"]
+- ["21ssigmaapiswiftsample324Ssigmaapi_Type_OrderBookV", "isInitialized"]
+- ["21ssigmaapiswiftsample324Ssigmaapi_Type_OrderBookV", "protoMessageName"]
+- ["21ssigmaapiswiftsample324Ssigmaapi_Type_OrderBookV", "quote"]
+- ["21ssigmaapiswiftsample324Ssigmaapi_Type_OrderBookV", "symbol"]
+- ["21ssigmaapiswiftsample324Ssigmaapi_Type_OrderBookV", "timestamp"]
+- ["21ssigmaapiswiftsample324Ssigmaapi_Type_OrderBookV", "traverse"]
+- ["21ssigmaapiswiftsample324Ssigmaapi_Type_OrderBookV", "unknownFields"]
+- ["s12StaticStringV", "init"]
+- ["s12StaticStringV", "init"]
+- ["SS", "init"]
+- ["SS", "init"]
+- !private ["SS", "isEmpty"]
+- ["Sy", "init"]
+- ["Sy", "init"]
+- !private ["Sy", "isEmpty"]
+- ["s16TextOutputStreamP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "isEmpty"]
+- ["s20TextOutputStreamableP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "isEmpty"]
+- ["13SwiftProtobuf14UnknownStorageV", "init"]
+- !private ["13SwiftProtobuf14UnknownStorageV", "traverse"]
+- !private ["13SwiftProtobuf7VisitorP", "visitRepeatedMessageField"]
+- !private ["13SwiftProtobuf7VisitorP", "visitSingularDoubleField"]
+- !private ["13SwiftProtobuf7VisitorP", "visitSingularInt64Field"]
+- !private ["13SwiftProtobuf7VisitorP", "visitSingularStringField"]
+- ["21ssigmaapiswiftsample335_GeneratedWithProtocGenSwiftVersion33_1A641B7674AF016A9A1F5A4624805E48LLV2_2V", "deinit"]
+- ["21ssigmaapiswiftsample335_GeneratedWithProtocGenSwiftVersion33_1A641B7674AF016A9A1F5A4624805E48LLV2_2V", "init"]
+- !private ["s24_DestructorSafeContainerP", "isEmpty"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "isEmpty"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "isEmpty"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "isEmpty"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "isEmpty"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "isEmpty"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "isEmpty"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isEmpty"]
+- ["13SwiftProtobuf26_MessageImplementationBaseP", "String"]
+- ["13SwiftProtobuf26_MessageImplementationBaseP", "SwiftProtobuf"]
+- ["13SwiftProtobuf26_MessageImplementationBaseP", ""]
+- ["13SwiftProtobuf26_MessageImplementationBaseP", "_protobuf_generated_isEqualTo"]
+- ["13SwiftProtobuf26_MessageImplementationBaseP", "_protobuf_nameMap"]
+- ["13SwiftProtobuf26_MessageImplementationBaseP", "_protobuf_package"]
+- !private ["13SwiftProtobuf26_MessageImplementationBaseP", "amount"]
+- !private ["13SwiftProtobuf26_MessageImplementationBaseP", "asks"]
+- !private ["13SwiftProtobuf26_MessageImplementationBaseP", "base"]
+- !private ["13SwiftProtobuf26_MessageImplementationBaseP", "bids"]
+- ["13SwiftProtobuf26_MessageImplementationBaseP", "debugDescription"]
+- ["13SwiftProtobuf26_MessageImplementationBaseP", "decodeMessage"]
+- !private ["13SwiftProtobuf26_MessageImplementationBaseP", "exchange"]
+- ["13SwiftProtobuf26_MessageImplementationBaseP", "hash"]
+- ["13SwiftProtobuf26_MessageImplementationBaseP", "hashValue"]
+- ["13SwiftProtobuf26_MessageImplementationBaseP", "init"]
+- ["13SwiftProtobuf26_MessageImplementationBaseP", "isEqualTo"]
+- ["13SwiftProtobuf26_MessageImplementationBaseP", "isInitialized"]
+- !private ["13SwiftProtobuf26_MessageImplementationBaseP", "price"]
+- ["13SwiftProtobuf26_MessageImplementationBaseP", "protoMessageName"]
+- !private ["13SwiftProtobuf26_MessageImplementationBaseP", "quote"]
+- !private ["13SwiftProtobuf26_MessageImplementationBaseP", "symbol"]
+- !private ["13SwiftProtobuf26_MessageImplementationBaseP", "timestamp"]
+- ["13SwiftProtobuf26_MessageImplementationBaseP", "traverse"]
+- ["13SwiftProtobuf26_MessageImplementationBaseP", "unknownFields"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "isEmpty"]
+- ["13SwiftProtobuf19_ProtoNameProvidingP", "String"]
+- ["13SwiftProtobuf19_ProtoNameProvidingP", "SwiftProtobuf"]
+- ["13SwiftProtobuf19_ProtoNameProvidingP", ""]
+- ["13SwiftProtobuf19_ProtoNameProvidingP", "_protobuf_generated_isEqualTo"]
+- ["13SwiftProtobuf19_ProtoNameProvidingP", "_protobuf_nameMap"]
+- ["13SwiftProtobuf19_ProtoNameProvidingP", "_protobuf_package"]
+- !private ["13SwiftProtobuf19_ProtoNameProvidingP", "amount"]
+- !private ["13SwiftProtobuf19_ProtoNameProvidingP", "asks"]
+- !private ["13SwiftProtobuf19_ProtoNameProvidingP", "base"]
+- !private ["13SwiftProtobuf19_ProtoNameProvidingP", "bids"]
+- ["13SwiftProtobuf19_ProtoNameProvidingP", "debugDescription"]
+- ["13SwiftProtobuf19_ProtoNameProvidingP", "decodeMessage"]
+- !private ["13SwiftProtobuf19_ProtoNameProvidingP", "exchange"]
+- ["13SwiftProtobuf19_ProtoNameProvidingP", "hash"]
+- ["13SwiftProtobuf19_ProtoNameProvidingP", "hashValue"]
+- ["13SwiftProtobuf19_ProtoNameProvidingP", "init"]
+- ["13SwiftProtobuf19_ProtoNameProvidingP", "isEqualTo"]
+- ["13SwiftProtobuf19_ProtoNameProvidingP", "isInitialized"]
+- !private ["13SwiftProtobuf19_ProtoNameProvidingP", "price"]
+- ["13SwiftProtobuf19_ProtoNameProvidingP", "protoMessageName"]
+- !private ["13SwiftProtobuf19_ProtoNameProvidingP", "quote"]
+- !private ["13SwiftProtobuf19_ProtoNameProvidingP", "symbol"]
+- !private ["13SwiftProtobuf19_ProtoNameProvidingP", "timestamp"]
+- ["13SwiftProtobuf19_ProtoNameProvidingP", "traverse"]
+- ["13SwiftProtobuf19_ProtoNameProvidingP", "unknownFields"]
+- ["s16_SwiftStringViewP", "init"]
+- ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "isEmpty"]
+depends-nominal:
+- !private "Sa"
+- !private "s13ArrayProtocolP"
+- "SK"
+- !private "Sb"
+- "s7CVarArgP"
+- "Sl"
+- "SL"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- !private "13SwiftProtobuf7DecoderP"
+- "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- "s25LosslessStringConvertibleP"
+- "13SwiftProtobuf7MessageP"
+- "s10MirrorPathP"
+- !private "SM"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- "13SwiftProtobuf8_NameMapV0C11DescriptionO"
+- "13SwiftProtobuf0B15APIVersionCheckP"
+- "13SwiftProtobuf0B12APIVersion_2P"
+- !private "Sk"
+- "Sm"
+- "ST"
+- "21ssigmaapiswiftsample321Ssigmaapi_Type_BidAskV"
+- "21ssigmaapiswiftsample324Ssigmaapi_Type_OrderBookV"
+- "s12StaticStringV"
+- "SS"
+- "Sy"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "13SwiftProtobuf14UnknownStorageV"
+- !private "13SwiftProtobuf7VisitorP"
+- "21ssigmaapiswiftsample335_GeneratedWithProtocGenSwiftVersion33_1A641B7674AF016A9A1F5A4624805E48LLV2_2V"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- "13SwiftProtobuf26_MessageImplementationBaseP"
+- "s21_ObjectiveCBridgeableP"
+- "13SwiftProtobuf19_ProtoNameProvidingP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Users/kaito/Documents/GitHub/ssigmaapiswiftsample3/Carthage/Build/iOS/SwiftGRPC.framework/Modules/SwiftGRPC.swiftmodule/arm64.swiftmodule"
+- "/Users/kaito/Documents/GitHub/ssigmaapiswiftsample3/Carthage/Build/iOS/SwiftProtobuf.framework/Modules/SwiftProtobuf.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/kaito/Documents/GitHub/ssigmaapiswiftsample3/Carthage/Build/iOS/CgRPC.framework/Headers/cgrpc.h"
+- "/Users/kaito/Documents/GitHub/ssigmaapiswiftsample3/Carthage/Build/iOS/CgRPC.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "f468320f1587ab7a7b54dbf02486e6ff"

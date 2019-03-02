@@ -1,0 +1,4 @@
+framework module ssigmaapiswiftsample3 {
+  header "ssigmaapiswiftsample3-Swift.h"
+  requires objc
+}
